@@ -1,9 +1,9 @@
 ﻿using ApiPostoCombustivel.Services;
-using ApiPostoCombustivel.DTO;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using ApiPostoCombustivel.Database;
 using ApiPostoCombustivel.Repositories;
+using ApiPostoCombustivel.DTO.CombustivelDTO;
 
 namespace ApiPostoCombustivel.Controllers
 {
@@ -19,15 +19,22 @@ namespace ApiPostoCombustivel.Controllers
             _service = new CombustivelService(repository);
         }
 
-        // GET: api/combustivel
         [HttpGet]
         public ActionResult<IEnumerable<CombustivelDTO>> GetEstoque()
         {
             return Ok(_service.GetEstoque());
         }
 
-        // GET: api/combustivel/{tipo}
-        [HttpGet("{tipo}")]
+        [HttpGet("{id:int}")]
+        public ActionResult<CombustivelDTO> GetCombustivelById(int id)
+        {
+            var combustivel = _service.GetCombustivelById(id);
+            if (combustivel == null)
+                return NotFound();
+            return Ok(combustivel);
+        }
+
+        [HttpGet("tipo/{tipo}")]
         public ActionResult<CombustivelDTO> GetCombustivelByTipo(string tipo)
         {
             var combustivel = _service.GetCombustivelByTipo(tipo);
@@ -36,38 +43,52 @@ namespace ApiPostoCombustivel.Controllers
             return Ok(combustivel);
         }
 
-        // POST: api/combustivel
         [HttpPost]
-        public IActionResult AddCombustivel([FromBody] CombustivelDTO combustivelDto)
+        public IActionResult AddCombustivel([FromBody] CreateCombustivelDTO createDto)
         {
-            _service.AddCombustivel(combustivelDto);
-            return CreatedAtAction(nameof(GetCombustivelByTipo), new { tipo = combustivelDto.Tipo }, combustivelDto);
+            try
+            {
+                var combustivelDto = new CombustivelDTO
+                {
+                    Tipo = createDto.Tipo,
+                    Estoque = createDto.Estoque
+                };
+
+                var resultado = _service.AddCombustivel(combustivelDto);
+                return CreatedAtAction(nameof(GetCombustivelById), new { id = resultado.Id }, resultado);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-        // PATCH: api/combustivel/{tipo}
-        [HttpPatch("{tipo}")]
-        public IActionResult UpdateCombustivel(string tipo, [FromBody] CombustivelDTO combustivelDto)
+        [HttpPatch("{id:int}")]
+        public IActionResult UpdateCombustivel(int id, [FromBody] UpdateCombustivelDTO updateDto)
         {
-            if (tipo != combustivelDto.Tipo)
-                return BadRequest("Tipo de combustível não corresponde.");
-
-            var existingCombustivel = _service.GetCombustivelByTipo(tipo);
+            var existingCombustivel = _service.GetCombustivelById(id);
             if (existingCombustivel == null)
                 return NotFound();
 
-            _service.UpdateCombustivel(combustivelDto);
-            return NoContent();
+            try
+            {
+                _service.UpdateCombustivel(id, updateDto);
+                return NoContent();
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
-        // DELETE: api/combustivel/{tipo}
-        [HttpDelete("{tipo}")]
-        public IActionResult DeleteCombustivel(string tipo)
+        [HttpDelete("{id:int}")]
+        public IActionResult DeleteCombustivel(int id)
         {
-            var combustivel = _service.GetCombustivelByTipo(tipo);
+            var combustivel = _service.GetCombustivelById(id);
             if (combustivel == null)
                 return NotFound();
 
-            _service.DeleteCombustivel(tipo);
+            _service.DeleteCombustivel(id);
             return NoContent();
         }
     }

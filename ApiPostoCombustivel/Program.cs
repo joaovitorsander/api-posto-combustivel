@@ -1,6 +1,8 @@
 using ApiPostoCombustivel.Database;
 using ApiPostoCombustivel.Services;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseInMemoryDatabase("DBPosto"));
 
-//builder.Services.AddScoped<ICombustivelService, CombustivelService>(); NÂO PODE
+//builder.Services.AddScoped<ICombustivelService, CombustivelService>(); NÃO PODE
 
 // Adiciona os serviços do controlador
 builder.Services.AddControllers();

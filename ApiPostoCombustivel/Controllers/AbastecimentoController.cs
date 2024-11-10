@@ -2,8 +2,11 @@
 using ApiPostoCombustivel.DTO;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System;
+using System.Linq;
 using ApiPostoCombustivel.Database;
 using ApiPostoCombustivel.Repositories;
+using ApiPostoCombustivel.Parser;
 
 namespace ApiPostoCombustivel.Controllers
 {
@@ -12,11 +15,15 @@ namespace ApiPostoCombustivel.Controllers
     public class AbastecimentoController : ControllerBase
     {
         private readonly AbastecimentoService _service;
+        private readonly CombustivelService _combustivelService;
 
         public AbastecimentoController(AppDbContext context)
         {
-            var repository = new AbastecimentoRepository(context);
-            _service = new AbastecimentoService(repository);
+            var abastecimentoRepository = new AbastecimentoRepository(context);
+            _service = new AbastecimentoService(abastecimentoRepository);
+
+            var combustivelRepository = new CombustivelRepository(context);
+            _combustivelService = new CombustivelService(combustivelRepository);
         }
 
         // GET: api/abastecimento
@@ -66,6 +73,23 @@ namespace ApiPostoCombustivel.Controllers
 
             _service.DeleteAbastecimento(id);
             return NoContent();
+        }
+
+        // GET: api/abastecimento/relatorio/{data}
+        [HttpGet("relatorio/{data}")]
+        public IActionResult GetRelatorioPorDia(DateTime data)
+        {
+
+            var abastecimentosDoDia = _service.GetAbastecimentos()
+                                              .Where(a => a.Data.Date == data.Date);
+
+            var estoqueAtual = _combustivelService.GetEstoque();
+
+            return Ok(new
+            {
+                AbastecimentosDiarios = abastecimentosDoDia,
+                EstoqueAtual = estoqueAtual
+            });
         }
     }
 }

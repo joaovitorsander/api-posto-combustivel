@@ -19,6 +19,11 @@ namespace ApiPostoCombustivel.Repositories
             return _context.Combustiveis.ToList();
         }
 
+        public TbCombustivel GetCombustivelById(int id)
+        {
+            return _context.Combustiveis.FirstOrDefault(c => c.Id == id);
+        }
+
         public TbCombustivel GetCombustivelByTipo(string tipo)
         {
             return _context.Combustiveis.FirstOrDefault(c => c.Tipo == tipo);
@@ -32,17 +37,18 @@ namespace ApiPostoCombustivel.Repositories
 
         public void UpdateCombustivel(TbCombustivel combustivel)
         {
-            var existingCombustivel = _context.Combustiveis.FirstOrDefault(c => c.Tipo == combustivel.Tipo);
+            var existingCombustivel = _context.Combustiveis.FirstOrDefault(c => c.Id == combustivel.Id);
             if (existingCombustivel != null)
             {
-                existingCombustivel.Quantidade = combustivel.Quantidade;
+                existingCombustivel.Tipo = combustivel.Tipo;
+                existingCombustivel.Estoque = combustivel.Estoque;
                 _context.SaveChanges();
             }
         }
 
-        public void DeleteCombustivel(string tipo)
+        public void DeleteCombustivel(int id)
         {
-            var combustivel = _context.Combustiveis.FirstOrDefault(c => c.Tipo == tipo);
+            var combustivel = _context.Combustiveis.FirstOrDefault(c => c.Id == id);
             if (combustivel != null)
             {
                 _context.Combustiveis.Remove(combustivel);

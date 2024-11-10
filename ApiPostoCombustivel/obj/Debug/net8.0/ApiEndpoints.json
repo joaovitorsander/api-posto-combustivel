@@ -1,31 +1,15 @@
 [
   {
     "ContainingType": "ApiPostoCombustivel.Controllers.AbastecimentoController",
-    "Method": "RegistrarAbastecimento",
+    "Method": "GetAbastecimentos",
     "RelativePath": "api/abastecimento",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "abastecimento",
-        "Type": "ApiPostoCombustivel.Database.Models.TbAbastecimento",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ApiPostoCombustivel.Controllers.AbastecimentoController",
-    "Method": "GetRelatorio",
-    "RelativePath": "api/abastecimento/relatorio",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiPostoCombustivel.Database.Models.TbAbastecimento, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiPostoCombustivel.DTO.AbastecimentoDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -34,6 +18,101 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ApiPostoCombustivel.Controllers.AbastecimentoController",
+    "Method": "AddAbastecimento",
+    "RelativePath": "api/abastecimento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "abastecimentoDto",
+        "Type": "ApiPostoCombustivel.DTO.AbastecimentoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPostoCombustivel.Controllers.AbastecimentoController",
+    "Method": "GetAbastecimentoById",
+    "RelativePath": "api/abastecimento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ApiPostoCombustivel.DTO.AbastecimentoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiPostoCombustivel.Controllers.AbastecimentoController",
+    "Method": "UpdateAbastecimento",
+    "RelativePath": "api/abastecimento/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "abastecimentoDto",
+        "Type": "ApiPostoCombustivel.DTO.AbastecimentoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPostoCombustivel.Controllers.AbastecimentoController",
+    "Method": "DeleteAbastecimento",
+    "RelativePath": "api/abastecimento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPostoCombustivel.Controllers.AbastecimentoController",
+    "Method": "GetRelatorioPorDia",
+    "RelativePath": "api/abastecimento/relatorio/{data}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ApiPostoCombustivel.Controllers.CombustivelController",
@@ -45,7 +124,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiPostoCombustivel.DTO.CombustivelDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiPostoCombustivel.DTO.CombustivelDTO.CombustivelDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -64,8 +143,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "combustivelDto",
-        "Type": "ApiPostoCombustivel.DTO.CombustivelDTO",
+        "Name": "createDto",
+        "Type": "ApiPostoCombustivel.DTO.CombustivelDTO.CreateCombustivelDTO",
         "IsRequired": true
       }
     ],
@@ -73,21 +152,21 @@
   },
   {
     "ContainingType": "ApiPostoCombustivel.Controllers.CombustivelController",
-    "Method": "GetCombustivelByTipo",
-    "RelativePath": "api/combustivel/{tipo}",
+    "Method": "GetCombustivelById",
+    "RelativePath": "api/combustivel/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "tipo",
-        "Type": "System.String",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiPostoCombustivel.DTO.CombustivelDTO",
+        "Type": "ApiPostoCombustivel.DTO.CombustivelDTO.CombustivelDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -100,19 +179,19 @@
   {
     "ContainingType": "ApiPostoCombustivel.Controllers.CombustivelController",
     "Method": "UpdateCombustivel",
-    "RelativePath": "api/combustivel/{tipo}",
+    "RelativePath": "api/combustivel/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "tipo",
-        "Type": "System.String",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       },
       {
-        "Name": "combustivelDto",
-        "Type": "ApiPostoCombustivel.DTO.CombustivelDTO",
+        "Name": "updateDto",
+        "Type": "ApiPostoCombustivel.DTO.CombustivelDTO.UpdateCombustivelDTO",
         "IsRequired": true
       }
     ],
@@ -121,8 +200,24 @@
   {
     "ContainingType": "ApiPostoCombustivel.Controllers.CombustivelController",
     "Method": "DeleteCombustivel",
-    "RelativePath": "api/combustivel/{tipo}",
+    "RelativePath": "api/combustivel/{id}",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPostoCombustivel.Controllers.CombustivelController",
+    "Method": "GetCombustivelByTipo",
+    "RelativePath": "api/combustivel/tipo/{tipo}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -132,6 +227,16 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "ApiPostoCombustivel.DTO.CombustivelDTO.CombustivelDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

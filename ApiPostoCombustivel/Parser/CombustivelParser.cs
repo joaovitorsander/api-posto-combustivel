@@ -1,5 +1,5 @@
 ﻿using ApiPostoCombustivel.Database.Models;
-using ApiPostoCombustivel.DTO;
+using ApiPostoCombustivel.DTO.CombustivelDTO;
 
 namespace ApiPostoCombustivel.Parser
 {
@@ -9,8 +9,9 @@ namespace ApiPostoCombustivel.Parser
         {
             return new TbCombustivel
             {
+                Id = dto.Id,
                 Tipo = dto.Tipo,
-                Quantidade = dto.Quantidade
+                Estoque = dto.Estoque
             };
         }
 
@@ -18,8 +19,9 @@ namespace ApiPostoCombustivel.Parser
         {
             return new CombustivelDTO
             {
+                Id = model.Id,
                 Tipo = model.Tipo,
-                Quantidade = model.Quantidade
+                Estoque = model.Estoque
             };
         }
     }

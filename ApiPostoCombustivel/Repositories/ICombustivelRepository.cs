@@ -6,9 +6,10 @@ namespace ApiPostoCombustivel.Repositories
     public interface ICombustivelRepository
     {
         IEnumerable<TbCombustivel> GetEstoque();
+        TbCombustivel GetCombustivelById(int id);
         TbCombustivel GetCombustivelByTipo(string tipo);
         void AddCombustivel(TbCombustivel combustivel);
         void UpdateCombustivel(TbCombustivel combustivel);
-        void DeleteCombustivel(string tipo);
+        void DeleteCombustivel(int id);
     }
 }

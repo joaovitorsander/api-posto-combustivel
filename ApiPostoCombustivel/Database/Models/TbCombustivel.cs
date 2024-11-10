@@ -2,8 +2,8 @@
 {
     public class TbCombustivel
     {
-        public int Id { get; set; }
+        public int Id { get; set; } 
         public string Tipo { get; set; }
-        public double Quantidade { get; set; }
+        public double Estoque { get; set; } 
     }
 }
