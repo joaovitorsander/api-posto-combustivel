@@ -37,11 +37,32 @@ namespace ApiPostoCombustivel.Services
 
         public AbastecimentoDTO AddAbastecimento(AbastecimentoDTO abastecimentoDto)
         {
+            if (abastecimentoDto.Quantidade <= 0)
+            {
+                throw new ArgumentException("A quantidade de abastecimento deve ser maior que zero.");
+            }
+
+            var combustivel = _combustivelRepository.GetCombustivelByTipo(abastecimentoDto.TipoCombustivel);
+            if (combustivel == null)
+            {
+                throw new ArgumentException("Tipo de combustível não encontrado. Cadastre o combustível antes de realizar o abastecimento.");
+            }
+
+            if (combustivel.Estoque < abastecimentoDto.Quantidade)
+            {
+                throw new InvalidOperationException("Estoque insuficiente para realizar o abastecimento.");
+            }
+
+            combustivel.Estoque -= abastecimentoDto.Quantidade;
+            _combustivelRepository.UpdateCombustivel(combustivel);
+
             var abastecimento = AbastecimentoParser.ToModel(abastecimentoDto);
             _abastecimentoRepository.AddAbastecimento(abastecimento);
 
             return AbastecimentoParser.ToDTO(abastecimento);
         }
+
+
 
 
         public AbastecimentoDTO UpdateAbastecimento(int id, UpdateAbastecimentoDTO updateDto)
@@ -52,6 +73,20 @@ namespace ApiPostoCombustivel.Services
                 throw new ArgumentException("Abastecimento não encontrado.");
             }
 
+            if (updateDto.Quantidade.HasValue && updateDto.Quantidade <= 0)
+            {
+                throw new ArgumentException("A quantidade de abastecimento deve ser maior que zero.");
+            }
+
+            if (updateDto.TipoCombustivel != null)
+            {
+                var combustivel = _combustivelRepository.GetCombustivelByTipo(updateDto.TipoCombustivel);
+                if (combustivel == null)
+                {
+                    throw new ArgumentException("Tipo de combustível não encontrado. Cadastre o combustível antes de atualizar o abastecimento.");
+                }
+            }
+
             if (updateDto.TipoCombustivel != null)
             {
                 abastecimento.TipoCombustivel = updateDto.TipoCombustivel;
@@ -59,6 +94,24 @@ namespace ApiPostoCombustivel.Services
 
             if (updateDto.Quantidade.HasValue)
             {
+                var tipoCombustivel = updateDto.TipoCombustivel ?? abastecimento.TipoCombustivel;
+                var combustivel = _combustivelRepository.GetCombustivelByTipo(tipoCombustivel);
+
+                if (combustivel == null)
+                {
+                    throw new ArgumentException("Tipo de combustível não encontrado.");
+                }
+
+                var diferencaQuantidade = updateDto.Quantidade.Value - abastecimento.Quantidade;
+                if (diferencaQuantidade > 0 && combustivel.Estoque < diferencaQuantidade)
+                {
+                    throw new InvalidOperationException("Estoque insuficiente para realizar a atualização do abastecimento.");
+                }
+
+                
+                combustivel.Estoque -= diferencaQuantidade;
+                _combustivelRepository.UpdateCombustivel(combustivel);
+
                 abastecimento.Quantidade = updateDto.Quantidade.Value;
             }
 
@@ -68,8 +121,10 @@ namespace ApiPostoCombustivel.Services
             }
 
             _abastecimentoRepository.UpdateAbastecimento(abastecimento);
-            return AbastecimentoParser.ToDTO(abastecimento);
+
+            return AbastecimentoParser.ToDTO(abastecimento); 
         }
+
 
 
         public void DeleteAbastecimento(int id)

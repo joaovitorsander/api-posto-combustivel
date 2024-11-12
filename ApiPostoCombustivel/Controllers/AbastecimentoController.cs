@@ -43,7 +43,6 @@ namespace ApiPostoCombustivel.Controllers
 
         // POST: api/abastecimento
         [HttpPost]
-        [HttpPost]
         public IActionResult AddAbastecimento([FromBody] CreateAbastecimentoDTO createDto)
         {
             try
@@ -62,6 +61,10 @@ namespace ApiPostoCombustivel.Controllers
             {
                 return BadRequest(ex.Message);
             }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest("Estoque insuficiente para realizar o abastecimento.");
+            }
         }
 
 
@@ -76,7 +79,11 @@ namespace ApiPostoCombustivel.Controllers
             }
             catch (ArgumentException ex)
             {
-                return NotFound(ex.Message);
+                return BadRequest(ex.Message);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest("Estoque insuficiente para realizar a atualização do abastecimento.");
             }
         }
 
