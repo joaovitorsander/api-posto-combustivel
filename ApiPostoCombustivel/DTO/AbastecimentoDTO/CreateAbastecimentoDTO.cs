@@ -1,6 +1,6 @@
-﻿namespace ApiPostoCombustivel.DTO
+﻿namespace ApiPostoCombustivel.DTO.AbastecimentoDTO
 {
-    public class AbastecimentoDTO
+    public class CreateAbastecimentoDTO
     {
         public string TipoCombustivel { get; set; }
         public double Quantidade { get; set; }

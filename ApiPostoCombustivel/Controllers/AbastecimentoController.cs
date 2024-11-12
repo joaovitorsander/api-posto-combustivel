@@ -1,12 +1,11 @@
 ﻿using ApiPostoCombustivel.Services;
-using ApiPostoCombustivel.DTO;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System;
 using System.Linq;
 using ApiPostoCombustivel.Database;
 using ApiPostoCombustivel.Repositories;
-using ApiPostoCombustivel.Parser;
+using ApiPostoCombustivel.DTO.AbastecimentoDTO;
 
 namespace ApiPostoCombustivel.Controllers
 {
@@ -15,15 +14,14 @@ namespace ApiPostoCombustivel.Controllers
     public class AbastecimentoController : ControllerBase
     {
         private readonly AbastecimentoService _service;
-        private readonly CombustivelService _combustivelService;
+        private readonly CombustivelRepository _combustivelRepository;
 
         public AbastecimentoController(AppDbContext context)
         {
             var abastecimentoRepository = new AbastecimentoRepository(context);
-            _service = new AbastecimentoService(abastecimentoRepository);
+            _combustivelRepository = new CombustivelRepository(context); 
 
-            var combustivelRepository = new CombustivelRepository(context);
-            _combustivelService = new CombustivelService(combustivelRepository);
+            _service = new AbastecimentoService(abastecimentoRepository, _combustivelRepository);
         }
 
         // GET: api/abastecimento
@@ -45,22 +43,41 @@ namespace ApiPostoCombustivel.Controllers
 
         // POST: api/abastecimento
         [HttpPost]
-        public IActionResult AddAbastecimento([FromBody] AbastecimentoDTO abastecimentoDto)
+        [HttpPost]
+        public IActionResult AddAbastecimento([FromBody] CreateAbastecimentoDTO createDto)
         {
-            _service.AddAbastecimento(abastecimentoDto);
-            return CreatedAtAction(nameof(GetAbastecimentoById), new { id = abastecimentoDto.TipoCombustivel }, abastecimentoDto);
+            try
+            {
+                var abastecimentoDto = new AbastecimentoDTO
+                {
+                    TipoCombustivel = createDto.TipoCombustivel,
+                    Quantidade = createDto.Quantidade,
+                    Data = createDto.Data
+                };
+
+                var resultado = _service.AddAbastecimento(abastecimentoDto);
+                return CreatedAtAction(nameof(GetAbastecimentoById), new { id = resultado.Id }, resultado);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
+
 
         // PATCH: api/abastecimento/{id}
         [HttpPatch("{id}")]
-        public IActionResult UpdateAbastecimento(int id, [FromBody] AbastecimentoDTO abastecimentoDto)
+        public IActionResult UpdateAbastecimento(int id, [FromBody] UpdateAbastecimentoDTO updateDto)
         {
-            var existingAbastecimento = _service.GetAbastecimentoById(id);
-            if (existingAbastecimento == null)
-                return NotFound();
-
-            _service.UpdateAbastecimento(id, abastecimentoDto);
-            return NoContent();
+            try
+            {
+                var resultado = _service.UpdateAbastecimento(id, updateDto);
+                return Ok(resultado);
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
         // DELETE: api/abastecimento/{id}
@@ -79,11 +96,10 @@ namespace ApiPostoCombustivel.Controllers
         [HttpGet("relatorio/{data}")]
         public IActionResult GetRelatorioPorDia(DateTime data)
         {
-
             var abastecimentosDoDia = _service.GetAbastecimentos()
                                               .Where(a => a.Data.Date == data.Date);
 
-            var estoqueAtual = _combustivelService.GetEstoque();
+            var estoqueAtual = _combustivelRepository.GetEstoque();
 
             return Ok(new
             {
@@ -91,5 +107,16 @@ namespace ApiPostoCombustivel.Controllers
                 EstoqueAtual = estoqueAtual
             });
         }
+
+        [HttpGet("tipo/{tipoCombustivel}")]
+        public ActionResult<IEnumerable<AbastecimentoDTO>> GetAbastecimentosByTipo(string tipoCombustivel)
+        {
+            var abastecimentos = _service.GetAbastecimentosByTipo(tipoCombustivel);
+            if (!abastecimentos.Any())
+                return NotFound();
+
+            return Ok(abastecimentos);
+        }
+
     }
 }

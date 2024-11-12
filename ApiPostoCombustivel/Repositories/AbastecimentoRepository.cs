@@ -24,6 +24,13 @@ namespace ApiPostoCombustivel.Repositories
             return _context.Abastecimentos.FirstOrDefault(a => a.Id == id);
         }
 
+        public IEnumerable<TbAbastecimento> GetAbastecimentosByTipo(string tipoCombustivel)
+        {
+            return _context.Abastecimentos
+                           .Where(a => a.TipoCombustivel == tipoCombustivel)
+                           .ToList();
+        }
+
         public void AddAbastecimento(TbAbastecimento abastecimento)
         {
             _context.Abastecimentos.Add(abastecimento);

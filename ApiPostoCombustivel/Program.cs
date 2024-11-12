@@ -13,6 +13,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 //builder.Services.AddScoped<ICombustivelService, CombustivelService>(); NÃO PODE
 
 // Adiciona os serviços do controlador
+// resolver mais tarde please!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! irma do malamen é gostosa
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

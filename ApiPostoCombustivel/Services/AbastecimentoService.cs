@@ -1,46 +1,80 @@
-﻿using ApiPostoCombustivel.DTO;
+﻿using ApiPostoCombustivel.DTO.AbastecimentoDTO;
 using ApiPostoCombustivel.Parser;
 using ApiPostoCombustivel.Repositories;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ApiPostoCombustivel.Services
 {
     public class AbastecimentoService
     {
-        private readonly IAbastecimentoRepository _repository;
+        private readonly IAbastecimentoRepository _abastecimentoRepository;
+        private readonly ICombustivelRepository _combustivelRepository;
 
-        public AbastecimentoService(IAbastecimentoRepository repository)
+        public AbastecimentoService(IAbastecimentoRepository abastecimentoRepository, ICombustivelRepository combustivelRepository)
         {
-            _repository = repository;
+            _abastecimentoRepository = abastecimentoRepository;
+            _combustivelRepository = combustivelRepository;
         }
 
         public IEnumerable<AbastecimentoDTO> GetAbastecimentos()
         {
-            var abastecimentos = _repository.GetAbastecimentos();
+            var abastecimentos = _abastecimentoRepository.GetAbastecimentos();
             return abastecimentos.Select(AbastecimentoParser.ToDTO);
         }
 
         public AbastecimentoDTO GetAbastecimentoById(int id)
         {
-            var abastecimento = _repository.GetAbastecimentoById(id);
+            var abastecimento = _abastecimentoRepository.GetAbastecimentoById(id);
             return abastecimento != null ? AbastecimentoParser.ToDTO(abastecimento) : null;
         }
 
-        public void AddAbastecimento(AbastecimentoDTO abastecimentoDto)
+        public IEnumerable<AbastecimentoDTO> GetAbastecimentosByTipo(string tipoCombustivel)
         {
-            var abastecimento = AbastecimentoParser.ToModel(abastecimentoDto);
-            _repository.AddAbastecimento(abastecimento);
+            var abastecimentos = _abastecimentoRepository.GetAbastecimentosByTipo(tipoCombustivel);
+            return abastecimentos.Select(AbastecimentoParser.ToDTO);
         }
 
-        public void UpdateAbastecimento(int id, AbastecimentoDTO abastecimentoDto)
+        public AbastecimentoDTO AddAbastecimento(AbastecimentoDTO abastecimentoDto)
         {
             var abastecimento = AbastecimentoParser.ToModel(abastecimentoDto);
-            abastecimento.Id = id;
-            _repository.UpdateAbastecimento(abastecimento);
+            _abastecimentoRepository.AddAbastecimento(abastecimento);
+
+            return AbastecimentoParser.ToDTO(abastecimento);
         }
+
+
+        public AbastecimentoDTO UpdateAbastecimento(int id, UpdateAbastecimentoDTO updateDto)
+        {
+            var abastecimento = _abastecimentoRepository.GetAbastecimentoById(id);
+            if (abastecimento == null)
+            {
+                throw new ArgumentException("Abastecimento não encontrado.");
+            }
+
+            if (updateDto.TipoCombustivel != null)
+            {
+                abastecimento.TipoCombustivel = updateDto.TipoCombustivel;
+            }
+
+            if (updateDto.Quantidade.HasValue)
+            {
+                abastecimento.Quantidade = updateDto.Quantidade.Value;
+            }
+
+            if (updateDto.Data.HasValue)
+            {
+                abastecimento.Data = updateDto.Data.Value;
+            }
+
+            _abastecimentoRepository.UpdateAbastecimento(abastecimento);
+            return AbastecimentoParser.ToDTO(abastecimento);
+        }
+
 
         public void DeleteAbastecimento(int id)
         {
-            _repository.DeleteAbastecimento(id);
+            _abastecimentoRepository.DeleteAbastecimento(id);
         }
     }
 }

@@ -87,3 +87,4 @@ D:\Documentos\Programação\Trabalho final - Juliano\api-posto-combutivel\ApiPos
 D:\Documentos\Programação\Trabalho final - Juliano\api-posto-combutivel\ApiPostoCombustivel\obj\Debug\net8.0\ApiPostoCombustivel.pdb
 D:\Documentos\Programação\Trabalho final - Juliano\api-posto-combutivel\ApiPostoCombustivel\obj\Debug\net8.0\ApiPostoCombustivel.genruntimeconfig.cache
 D:\Documentos\Programação\Trabalho final - Juliano\api-posto-combutivel\ApiPostoCombustivel\obj\Debug\net8.0\ref\ApiPostoCombustivel.dll
+C:\Users\João\source\repos\ApiPostoCombustivel\ApiPostoCombustivel\obj\Debug\net8.0\ApiPostoCombustivel.sourcelink.json

@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiPostoCombustivel.DTO.AbastecimentoDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiPostoCombustivel.DTO.AbastecimentoDTO.AbastecimentoDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "abastecimentoDto",
-        "Type": "ApiPostoCombustivel.DTO.AbastecimentoDTO",
+        "Name": "createDto",
+        "Type": "ApiPostoCombustivel.DTO.AbastecimentoDTO.CreateAbastecimentoDTO",
         "IsRequired": true
       }
     ],
@@ -51,7 +51,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiPostoCombustivel.DTO.AbastecimentoDTO",
+        "Type": "ApiPostoCombustivel.DTO.AbastecimentoDTO.AbastecimentoDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -75,8 +75,8 @@
         "IsRequired": true
       },
       {
-        "Name": "abastecimentoDto",
-        "Type": "ApiPostoCombustivel.DTO.AbastecimentoDTO",
+        "Name": "updateDto",
+        "Type": "ApiPostoCombustivel.DTO.AbastecimentoDTO.UpdateAbastecimentoDTO",
         "IsRequired": true
       }
     ],
@@ -113,6 +113,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPostoCombustivel.Controllers.AbastecimentoController",
+    "Method": "GetAbastecimentosByTipo",
+    "RelativePath": "api/abastecimento/tipo/{tipoCombustivel}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoCombustivel",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiPostoCombustivel.DTO.AbastecimentoDTO.AbastecimentoDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ApiPostoCombustivel.Controllers.CombustivelController",
