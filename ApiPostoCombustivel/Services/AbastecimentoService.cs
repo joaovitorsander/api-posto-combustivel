@@ -78,52 +78,72 @@ namespace ApiPostoCombustivel.Services
                 throw new ArgumentException("A quantidade de abastecimento deve ser maior que zero.");
             }
 
-            if (updateDto.TipoCombustivel != null)
+            var combustivelOriginal = _combustivelRepository.GetCombustivelByTipo(abastecimento.TipoCombustivel);
+            if (combustivelOriginal == null)
             {
-                var combustivel = _combustivelRepository.GetCombustivelByTipo(updateDto.TipoCombustivel);
-                if (combustivel == null)
-                {
-                    throw new ArgumentException("Tipo de combustível não encontrado. Cadastre o combustível antes de atualizar o abastecimento.");
-                }
+                throw new ArgumentException("Tipo de combustível original não encontrado.");
             }
 
-            if (updateDto.TipoCombustivel != null)
+            var tipoCombustivelAtualizado = abastecimento.TipoCombustivel;
+
+            bool tipoCombustivelAlterado = updateDto.TipoCombustivel != null && updateDto.TipoCombustivel != abastecimento.TipoCombustivel;
+
+            if (tipoCombustivelAlterado)
             {
-                abastecimento.TipoCombustivel = updateDto.TipoCombustivel;
+                var novoCombustivel = _combustivelRepository.GetCombustivelByTipo(updateDto.TipoCombustivel);
+                if (novoCombustivel == null)
+                {
+                    throw new ArgumentException("Novo tipo de combustível não encontrado.");
+                }
+
+                var quantidadeNecessaria = updateDto.Quantidade ?? abastecimento.Quantidade;
+                if (novoCombustivel.Estoque < quantidadeNecessaria)
+                {
+                    throw new InvalidOperationException("Estoque insuficiente para o novo tipo de combustível.");
+                }
+
+                combustivelOriginal.Estoque += abastecimento.Quantidade;
+                _combustivelRepository.UpdateCombustivel(combustivelOriginal);
+
+                novoCombustivel.Estoque -= quantidadeNecessaria;
+                _combustivelRepository.UpdateCombustivel(novoCombustivel);
+
+                tipoCombustivelAtualizado = updateDto.TipoCombustivel;
             }
 
             if (updateDto.Quantidade.HasValue)
             {
-                var tipoCombustivel = updateDto.TipoCombustivel ?? abastecimento.TipoCombustivel;
-                var combustivel = _combustivelRepository.GetCombustivelByTipo(tipoCombustivel);
-
-                if (combustivel == null)
-                {
-                    throw new ArgumentException("Tipo de combustível não encontrado.");
-                }
-
                 var diferencaQuantidade = updateDto.Quantidade.Value - abastecimento.Quantidade;
-                if (diferencaQuantidade > 0 && combustivel.Estoque < diferencaQuantidade)
-                {
-                    throw new InvalidOperationException("Estoque insuficiente para realizar a atualização do abastecimento.");
-                }
 
-                
-                combustivel.Estoque -= diferencaQuantidade;
-                _combustivelRepository.UpdateCombustivel(combustivel);
+
+                if (!tipoCombustivelAlterado)
+                {
+                    if (diferencaQuantidade > 0 && combustivelOriginal.Estoque < diferencaQuantidade)
+                    {
+                        throw new InvalidOperationException("Estoque insuficiente para atualizar a quantidade de abastecimento.");
+                    }
+
+                    combustivelOriginal.Estoque -= diferencaQuantidade;
+                    _combustivelRepository.UpdateCombustivel(combustivelOriginal);
+                }
 
                 abastecimento.Quantidade = updateDto.Quantidade.Value;
             }
+
 
             if (updateDto.Data.HasValue)
             {
                 abastecimento.Data = updateDto.Data.Value;
             }
 
+
+            abastecimento.TipoCombustivel = tipoCombustivelAtualizado;
+
             _abastecimentoRepository.UpdateAbastecimento(abastecimento);
 
             return AbastecimentoParser.ToDTO(abastecimento); 
         }
+
 
 
 

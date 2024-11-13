@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\services\\abastecimentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\services\\abastecimentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\dto\\abastecimentodto\\abastecimentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\dto\\abastecimentodto\\abastecimentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\controllers\\abastecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\controllers\\abastecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\services\\abastecimentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\services\\abastecimentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\dto\\abastecimentodto\\updateabastecimentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\database\\models\\tbcombustivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\database\\models\\tbcombustivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\dto\\abastecimentodto\\abastecimentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\dto\\abastecimentodto\\abastecimentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\dto\\abastecimentodto\\createabastecimentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TbAbastecimento.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Database\\Models\\TbAbastecimento.cs",
               "RelativeDocumentMoniker": "ApiPostoCombustivel\\Database\\Models\\TbAbastecimento.cs",
@@ -114,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AbastecimentoParser.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Parser\\AbastecimentoParser.cs",
               "RelativeDocumentMoniker": "ApiPostoCombustivel\\Parser\\AbastecimentoParser.cs",
@@ -126,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TbCombustivel.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Database\\Models\\TbCombustivel.cs",
               "RelativeDocumentMoniker": "ApiPostoCombustivel\\Database\\Models\\TbCombustivel.cs",
@@ -138,20 +138,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AbastecimentoService.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
               "RelativeDocumentMoniker": "ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
               "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
               "RelativeToolTip": "ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAADwv0QAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswEsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T23:18:03.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "AbastecimentoDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\DTO\\AbastecimentoDTO\\AbastecimentoDTO.cs",
               "RelativeDocumentMoniker": "ApiPostoCombustivel\\DTO\\AbastecimentoDTO\\AbastecimentoDTO.cs",
@@ -159,37 +159,38 @@
               "RelativeToolTip": "ApiPostoCombustivel\\DTO\\AbastecimentoDTO\\AbastecimentoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T23:17:01.267Z"
+              "WhenOpened": "2024-11-11T23:17:01.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AbastecimentoController.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
               "RelativeDocumentMoniker": "ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
               "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
               "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAcwFYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T23:18:19.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Program.cs",
               "RelativeDocumentMoniker": "ApiPostoCombustivel\\Program.cs",
               "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Program.cs",
               "RelativeToolTip": "ApiPostoCombustivel\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T00:37:47.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UpdateAbastecimentoDTO.cs",
               "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\DTO\\AbastecimentoDTO\\UpdateAbastecimentoDTO.cs",
               "RelativeDocumentMoniker": "ApiPostoCombustivel\\DTO\\AbastecimentoDTO\\UpdateAbastecimentoDTO.cs",
