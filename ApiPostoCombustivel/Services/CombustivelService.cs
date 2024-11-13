@@ -53,6 +53,11 @@ namespace ApiPostoCombustivel.Services
                 throw new ArgumentException("Tipo de combustível inválido.");
             }
 
+            if (combustivelDto.Estoque <= 0)
+            {
+                throw new ArgumentException("O estoque deve ser maior que zero.");
+            }
+
             var combustivelExistente = _repository.GetCombustivelByTipo(combustivelDto.Tipo);
             if (combustivelExistente != null)
             {
@@ -63,6 +68,7 @@ namespace ApiPostoCombustivel.Services
             _repository.AddCombustivel(combustivel);
             return CombustivelParser.ToDTO(combustivel);
         }
+
 
         public void UpdateCombustivel(int id, UpdateCombustivelDTO updateDto)
         {
@@ -83,11 +89,16 @@ namespace ApiPostoCombustivel.Services
 
             if (updateDto.Estoque.HasValue)
             {
+                if (updateDto.Estoque.Value <= 0)
+                {
+                    throw new ArgumentException("O estoque deve ser maior que zero.");
+                }
                 combustivel.Estoque = updateDto.Estoque.Value;
             }
 
             _repository.UpdateCombustivel(combustivel);
         }
+
 
         public void DeleteCombustivel(int id)
         {

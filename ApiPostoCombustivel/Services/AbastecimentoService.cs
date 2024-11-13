@@ -37,15 +37,15 @@ namespace ApiPostoCombustivel.Services
 
         public AbastecimentoDTO AddAbastecimento(AbastecimentoDTO abastecimentoDto)
         {
-            if (abastecimentoDto.Quantidade <= 0)
-            {
-                throw new ArgumentException("A quantidade de abastecimento deve ser maior que zero.");
-            }
-
             var combustivel = _combustivelRepository.GetCombustivelByTipo(abastecimentoDto.TipoCombustivel);
             if (combustivel == null)
             {
                 throw new ArgumentException("Tipo de combustível não encontrado. Cadastre o combustível antes de realizar o abastecimento.");
+            }
+
+            if (abastecimentoDto.Quantidade <= 0)
+            {
+                throw new ArgumentException("A quantidade de abastecimento deve ser maior que zero.");
             }
 
             if (combustivel.Estoque < abastecimentoDto.Quantidade)
