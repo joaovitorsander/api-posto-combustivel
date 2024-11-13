@@ -1,7 +1,9 @@
-﻿using ApiPostoCombustivel.Database.Models;
+﻿using ApiPostoCombustivel.Database;
+using ApiPostoCombustivel.Database.Models;
+using ApiPostoCombustivel.Database.Repositories;
+using ApiPostoCombustivel.Database.Repositories.Interfaces;
 using ApiPostoCombustivel.DTO.CombustivelDTO;
 using ApiPostoCombustivel.Parser;
-using ApiPostoCombustivel.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +12,7 @@ namespace ApiPostoCombustivel.Services
 {
     public class CombustivelService
     {
-        private readonly ICombustivelRepository _repository;
+        private readonly CombustivelRepository _combustivelRepository;
 
         private readonly List<string> tiposValidos = new List<string>
         {
@@ -23,31 +25,32 @@ namespace ApiPostoCombustivel.Services
             "Etanol Aditivado"
         };
 
-        public CombustivelService(ICombustivelRepository repository)
+        public CombustivelService(AppDbContext context)
         {
-            _repository = repository;
+            _combustivelRepository = new CombustivelRepository(context);
         }
 
         public IEnumerable<CombustivelDTO> GetEstoque()
         {
-            var combustiveis = _repository.GetEstoque();
+            var combustiveis = _combustivelRepository.GetEstoque();
             return combustiveis.Select(CombustivelParser.ToDTO);
         }
 
         public CombustivelDTO GetCombustivelById(int id)
         {
-            var combustivel = _repository.GetCombustivelById(id);
+            var combustivel = _combustivelRepository.GetCombustivelById(id);
             return combustivel != null ? CombustivelParser.ToDTO(combustivel) : null;
         }
 
         public CombustivelDTO GetCombustivelByTipo(string tipo)
         {
-            var combustivel = _repository.GetCombustivelByTipo(tipo);
+            var combustivel = _combustivelRepository.GetCombustivelByTipo(tipo);
             return combustivel != null ? CombustivelParser.ToDTO(combustivel) : null;
         }
 
         public CombustivelDTO AddCombustivel(CombustivelDTO combustivelDto)
         {
+            //Implementar validate
             if (!tiposValidos.Contains(combustivelDto.Tipo))
             {
                 throw new ArgumentException("Tipo de combustível inválido.");
@@ -58,21 +61,21 @@ namespace ApiPostoCombustivel.Services
                 throw new ArgumentException("O estoque deve ser maior que zero.");
             }
 
-            var combustivelExistente = _repository.GetCombustivelByTipo(combustivelDto.Tipo);
+            var combustivelExistente = _combustivelRepository.GetCombustivelByTipo(combustivelDto.Tipo);
             if (combustivelExistente != null)
             {
                 throw new ArgumentException("Este tipo de combustível já está registrado.");
             }
 
             var combustivel = CombustivelParser.ToModel(combustivelDto);
-            _repository.AddCombustivel(combustivel);
+            _combustivelRepository.AddCombustivel(combustivel);
             return CombustivelParser.ToDTO(combustivel);
         }
 
 
         public void UpdateCombustivel(int id, UpdateCombustivelDTO updateDto)
         {
-            var combustivel = _repository.GetCombustivelById(id);
+            var combustivel = _combustivelRepository.GetCombustivelById(id);
             if (combustivel == null)
             {
                 throw new ArgumentException("Combustível não encontrado.");
@@ -96,13 +99,13 @@ namespace ApiPostoCombustivel.Services
                 combustivel.Estoque = updateDto.Estoque.Value;
             }
 
-            _repository.UpdateCombustivel(combustivel);
+            _combustivelRepository.UpdateCombustivel(combustivel);
         }
 
 
         public void DeleteCombustivel(int id)
         {
-            _repository.DeleteCombustivel(id);
+            _combustivelRepository.DeleteCombustivel(id);
         }
     }
 }

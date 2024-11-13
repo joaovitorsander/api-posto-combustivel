@@ -10,12 +10,12 @@ namespace ApiPostoCombustivel.Database
         {
         }
 
-        public virtual DbSet<TbAbastecimento> Abastecimentos { get; set; } // Renomeado corretamente
-        public virtual DbSet<TbCombustivel> Combustiveis { get; set; } // Renomeado corretamente
+        public virtual DbSet<TbAbastecimento> Abastecimentos { get; set; }
+        public virtual DbSet<TbCombustivel> Combustiveis { get; set; } 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured) // Garantindo que o banco de dados em memória seja usado apenas quando necessário
+            if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseInMemoryDatabase("DBPosto");
             }

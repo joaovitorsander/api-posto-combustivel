@@ -1,7 +1,7 @@
 ﻿using ApiPostoCombustivel.Database.Models;
 using System.Collections.Generic;
 
-namespace ApiPostoCombustivel.Repositories
+namespace ApiPostoCombustivel.Database.Repositories.Interfaces
 {
     public interface ICombustivelRepository
     {

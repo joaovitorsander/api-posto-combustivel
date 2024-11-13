@@ -1,6 +1,8 @@
-﻿using ApiPostoCombustivel.DTO.AbastecimentoDTO;
+﻿using ApiPostoCombustivel.Database.Repositories;
+using ApiPostoCombustivel.Database;
+using ApiPostoCombustivel.Database.Repositories.Interfaces;
+using ApiPostoCombustivel.DTO.AbastecimentoDTO;
 using ApiPostoCombustivel.Parser;
-using ApiPostoCombustivel.Repositories;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -8,13 +10,13 @@ namespace ApiPostoCombustivel.Services
 {
     public class AbastecimentoService
     {
-        private readonly IAbastecimentoRepository _abastecimentoRepository;
-        private readonly ICombustivelRepository _combustivelRepository;
+        private readonly AbastecimentoRepository _abastecimentoRepository;
+        private readonly CombustivelRepository _combustivelRepository;
 
-        public AbastecimentoService(IAbastecimentoRepository abastecimentoRepository, ICombustivelRepository combustivelRepository)
+        public AbastecimentoService(AppDbContext context)
         {
-            _abastecimentoRepository = abastecimentoRepository;
-            _combustivelRepository = combustivelRepository;
+            _abastecimentoRepository = new AbastecimentoRepository(context);
+            _combustivelRepository = new CombustivelRepository(context);
         }
 
         public IEnumerable<AbastecimentoDTO> GetAbastecimentos()

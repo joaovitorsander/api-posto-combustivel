@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System;
 using System.Linq;
 using ApiPostoCombustivel.Database;
-using ApiPostoCombustivel.Repositories;
 using ApiPostoCombustivel.DTO.AbastecimentoDTO;
+using ApiPostoCombustivel.Database.Repositories;
 
 namespace ApiPostoCombustivel.Controllers
 {
@@ -14,14 +14,10 @@ namespace ApiPostoCombustivel.Controllers
     public class AbastecimentoController : ControllerBase
     {
         private readonly AbastecimentoService _service;
-        private readonly CombustivelRepository _combustivelRepository;
 
         public AbastecimentoController(AppDbContext context)
         {
-            var abastecimentoRepository = new AbastecimentoRepository(context);
-            _combustivelRepository = new CombustivelRepository(context); 
-
-            _service = new AbastecimentoService(abastecimentoRepository, _combustivelRepository);
+            _service = new AbastecimentoService(context);
         }
 
         // GET: api/abastecimento
@@ -81,6 +77,7 @@ namespace ApiPostoCombustivel.Controllers
             {
                 return BadRequest(ex.Message);
             }
+          //Criar pasta de exceptions 
             catch (InvalidOperationException ex)
             {
                 return BadRequest("Estoque insuficiente para realizar a atualização do abastecimento.");
@@ -103,6 +100,7 @@ namespace ApiPostoCombustivel.Controllers
         [HttpGet("relatorio/{data}")]
         public IActionResult GetRelatorioPorDia(DateTime data)
         {
+            //Colocar no service de abastecimento
             var abastecimentosDoDia = _service.GetAbastecimentos()
                                               .Where(a => a.Data.Date == data.Date)
                                               .ToList();

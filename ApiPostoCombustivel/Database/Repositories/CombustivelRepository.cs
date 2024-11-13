@@ -1,9 +1,10 @@
 ﻿using ApiPostoCombustivel.Database;
 using ApiPostoCombustivel.Database.Models;
+using ApiPostoCombustivel.Database.Repositories.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ApiPostoCombustivel.Repositories
+namespace ApiPostoCombustivel.Database.Repositories
 {
     public class CombustivelRepository : ICombustivelRepository
     {

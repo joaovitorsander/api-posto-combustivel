@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using ApiPostoCombustivel.Database;
-using ApiPostoCombustivel.Repositories;
 using ApiPostoCombustivel.DTO.CombustivelDTO;
 
 namespace ApiPostoCombustivel.Controllers
@@ -15,8 +14,7 @@ namespace ApiPostoCombustivel.Controllers
 
         public CombustivelController(AppDbContext context)
         {
-            var repository = new CombustivelRepository(context);
-            _service = new CombustivelService(repository);
+            _service = new CombustivelService(context);
         }
 
         [HttpGet]
