@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiPostoCombustivel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5970e0daac69bbf4927667bfcb2090351641c6d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91cfa5bcf8504cab58a194f6815108884945791c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiPostoCombustivel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiPostoCombustivel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

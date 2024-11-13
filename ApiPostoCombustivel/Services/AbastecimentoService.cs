@@ -144,9 +144,6 @@ namespace ApiPostoCombustivel.Services
             return AbastecimentoParser.ToDTO(abastecimento); 
         }
 
-
-
-
         public void DeleteAbastecimento(int id)
         {
             _abastecimentoRepository.DeleteAbastecimento(id);

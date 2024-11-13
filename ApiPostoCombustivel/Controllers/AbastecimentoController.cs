@@ -104,9 +104,17 @@ namespace ApiPostoCombustivel.Controllers
         public IActionResult GetRelatorioPorDia(DateTime data)
         {
             var abastecimentosDoDia = _service.GetAbastecimentos()
-                                              .Where(a => a.Data.Date == data.Date);
+                                              .Where(a => a.Data.Date == data.Date)
+                                              .ToList();
 
-            var estoqueAtual = _combustivelRepository.GetEstoque();
+            var tiposCombustiveisAbastecidos = abastecimentosDoDia
+                                                .Select(a => a.TipoCombustivel)
+                                                .Distinct()
+                                                .ToList();
+
+            var estoqueAtual = _combustivelRepository.GetEstoque()
+                                                     .Where(c => tiposCombustiveisAbastecidos.Contains(c.Tipo))
+                                                     .ToList();
 
             return Ok(new
             {
