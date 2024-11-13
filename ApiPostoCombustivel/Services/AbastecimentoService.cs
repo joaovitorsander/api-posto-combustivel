@@ -64,7 +64,7 @@ namespace ApiPostoCombustivel.Services
 
 
 
-
+        //Só para deixar registrado que este método esta funcionando agora do jeito que eu quero, obrigado Deus
         public AbastecimentoDTO UpdateAbastecimento(int id, UpdateAbastecimentoDTO updateDto)
         {
             var abastecimento = _abastecimentoRepository.GetAbastecimentoById(id);
