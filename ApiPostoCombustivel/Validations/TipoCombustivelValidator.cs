@@ -1,4 +1,6 @@
-﻿namespace ApiPostoCombustivel.Validations
+﻿using ApiPostoCombustivel.Exceptions;
+
+namespace ApiPostoCombustivel.Validations
 {
     public class TipoCombustivelValidator
     {
@@ -17,7 +19,7 @@
         {
             if (!tiposValidos.Contains(tipo))
             {
-                throw new InvalidOperationException("Tipo de combustível inválido.");
+                throw new TipoCombustivelInvalidoException("Tipo de combustível inválido.");
             }
         }
     }

@@ -1,13 +1,14 @@
-﻿namespace ApiPostoCombustivel.Validations
+﻿using ApiPostoCombustivel.Exceptions;
+
+namespace ApiPostoCombustivel.Validations
 {
     public class EstoqueCombustivelValidator
     {
-
         public static void ValidarEstoque(double? estoque)
         {
             if (estoque <= 0)
             {
-                throw new InvalidOperationException("O estoque deve ser maior que zero.");
+                throw new EstoqueInvalidoException("O estoque deve ser maior que zero.");
             }
         }
 
@@ -15,7 +16,7 @@
         {
             if (estoque < quantidadeNecessaria)
             {
-                throw new InvalidOperationException("Estoque insuficiente para realizar a operação.");
+                throw new EstoqueInsuficienteException("Estoque insuficiente para realizar a operação.");
             }
         }
     }

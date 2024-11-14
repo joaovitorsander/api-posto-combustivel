@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using ApiPostoCombustivel.Database;
 using ApiPostoCombustivel.DTO.CombustivelDTO;
+using ApiPostoCombustivel.Exceptions;
 
 namespace ApiPostoCombustivel.Controllers
 {
@@ -32,7 +33,7 @@ namespace ApiPostoCombustivel.Controllers
                 var combustivel = _service.GetCombustivelById(id);
                 return Ok(combustivel);
             }
-            catch (ArgumentException ex)
+            catch (CombustivelNaoEncontradoException ex)
             {
                 return NotFound(ex.Message);
             }
@@ -50,7 +51,11 @@ namespace ApiPostoCombustivel.Controllers
                 var combustivel = _service.GetCombustivelByTipo(tipo);
                 return Ok(combustivel);
             }
-            catch (ArgumentException ex)
+            catch (TipoCombustivelInvalidoException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (CombustivelNaoEncontradoException ex)
             {
                 return NotFound(ex.Message);
             }
@@ -74,7 +79,15 @@ namespace ApiPostoCombustivel.Controllers
                 var resultado = _service.AddCombustivel(combustivelDto);
                 return CreatedAtAction(nameof(GetCombustivelById), new { id = resultado.Id }, resultado);
             }
-            catch (InvalidOperationException ex)
+            catch (CombustivelJaRegistradoException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (TipoCombustivelInvalidoException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (EstoqueInvalidoException ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -92,7 +105,15 @@ namespace ApiPostoCombustivel.Controllers
                 _service.UpdateCombustivel(id, updateDto);
                 return NoContent();
             }
-            catch (ArgumentException ex)
+            catch (CombustivelNaoEncontradoException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (TipoCombustivelInvalidoException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (EstoqueInvalidoException ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -110,7 +131,7 @@ namespace ApiPostoCombustivel.Controllers
                 _service.DeleteCombustivel(id);
                 return NoContent();
             }
-            catch (ArgumentException ex)
+            catch (CombustivelNaoEncontradoException ex)
             {
                 return NotFound(ex.Message);
             }

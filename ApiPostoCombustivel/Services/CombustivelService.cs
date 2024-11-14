@@ -27,12 +27,16 @@ namespace ApiPostoCombustivel.Services
 
         public CombustivelDTO GetCombustivelById(int id)
         {
+            CombustivelExistenciaValidator.ValidarCombustivelExistente(_combustivelRepository, id);
+
             var combustivel = _combustivelRepository.GetCombustivelById(id);
-            return combustivel != null ? CombustivelParser.ToDTO(combustivel) : null;
+            return CombustivelParser.ToDTO(combustivel);
         }
 
         public CombustivelDTO GetCombustivelByTipo(string tipo)
         {
+            TipoCombustivelValidator.ValidarTipo(tipo);
+
             var combustivel = _combustivelRepository.GetCombustivelByTipo(tipo);
             return combustivel != null ? CombustivelParser.ToDTO(combustivel) : null;
         }
@@ -72,6 +76,7 @@ namespace ApiPostoCombustivel.Services
         public void DeleteCombustivel(int id)
         {
             CombustivelExistenciaValidator.ValidarCombustivelExistente(_combustivelRepository, id);
+
             _combustivelRepository.DeleteCombustivel(id);
         }
     }

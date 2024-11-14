@@ -1,4 +1,5 @@
 ﻿using ApiPostoCombustivel.Database.Repositories;
+using ApiPostoCombustivel.Exceptions;
 
 namespace ApiPostoCombustivel.Validations
 {
@@ -9,7 +10,7 @@ namespace ApiPostoCombustivel.Validations
             var combustivelExistente = combustivelRepository.GetCombustivelByTipo(tipo);
             if (combustivelExistente != null)
             {
-                throw new ArgumentException("Este tipo de combustível já está registrado.");
+                throw new CombustivelJaRegistradoException("Este tipo de combustível já está registrado.");
             }
         }
 
@@ -18,7 +19,7 @@ namespace ApiPostoCombustivel.Validations
             var combustivel = combustivelRepository.GetCombustivelById(id);
             if (combustivel == null)
             {
-                throw new ArgumentException("Combustível não encontrado.");
+                throw new CombustivelNaoEncontradoException("Combustível não encontrado.");
             }
         }
     }
