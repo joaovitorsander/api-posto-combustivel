@@ -14,10 +14,12 @@ namespace ApiPostoCombustivel.Controllers
     public class AbastecimentoController : ControllerBase
     {
         private readonly AbastecimentoService _service;
+        private readonly CombustivelService _combustivelService;
 
         public AbastecimentoController(AppDbContext context)
         {
             _service = new AbastecimentoService(context);
+            _combustivelService = new CombustivelService(context);
         }
 
         // GET: api/abastecimento
@@ -61,6 +63,10 @@ namespace ApiPostoCombustivel.Controllers
             {
                 return BadRequest("Estoque insuficiente para realizar o abastecimento.");
             }
+            catch (Exception e)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + e.Message);
+            }
         }
 
 
@@ -82,6 +88,10 @@ namespace ApiPostoCombustivel.Controllers
             {
                 return BadRequest("Estoque insuficiente para realizar a atualização do abastecimento.");
             }
+            catch (Exception e)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + e.Message);
+            }
         }
 
         // DELETE: api/abastecimento/{id}
@@ -100,7 +110,6 @@ namespace ApiPostoCombustivel.Controllers
         [HttpGet("relatorio/{data}")]
         public IActionResult GetRelatorioPorDia(DateTime data)
         {
-            //Colocar no service de abastecimento
             var abastecimentosDoDia = _service.GetAbastecimentos()
                                               .Where(a => a.Data.Date == data.Date)
                                               .ToList();
@@ -110,9 +119,9 @@ namespace ApiPostoCombustivel.Controllers
                                                 .Distinct()
                                                 .ToList();
 
-            var estoqueAtual = _combustivelRepository.GetEstoque()
-                                                     .Where(c => tiposCombustiveisAbastecidos.Contains(c.Tipo))
-                                                     .ToList();
+            var estoqueAtual = _combustivelService.GetEstoque()
+                                       .Where(c => tiposCombustiveisAbastecidos.Contains(c.Tipo))
+                                       .ToList();
 
             return Ok(new
             {

@@ -20,25 +20,44 @@ namespace ApiPostoCombustivel.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<CombustivelDTO>> GetEstoque()
         {
-            return Ok(_service.GetEstoque());
+            var estoque = _service.GetEstoque();
+            return Ok(estoque);
         }
 
         [HttpGet("{id:int}")]
         public ActionResult<CombustivelDTO> GetCombustivelById(int id)
         {
-            var combustivel = _service.GetCombustivelById(id);
-            if (combustivel == null)
-                return NotFound();
-            return Ok(combustivel);
+            try
+            {
+                var combustivel = _service.GetCombustivelById(id);
+                return Ok(combustivel);
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + e.Message);
+            }
         }
 
         [HttpGet("tipo/{tipo}")]
         public ActionResult<CombustivelDTO> GetCombustivelByTipo(string tipo)
         {
-            var combustivel = _service.GetCombustivelByTipo(tipo);
-            if (combustivel == null)
-                return NotFound();
-            return Ok(combustivel);
+            try
+            {
+                var combustivel = _service.GetCombustivelByTipo(tipo);
+                return Ok(combustivel);
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + e.Message);
+            }
         }
 
         [HttpPost]
@@ -55,19 +74,19 @@ namespace ApiPostoCombustivel.Controllers
                 var resultado = _service.AddCombustivel(combustivelDto);
                 return CreatedAtAction(nameof(GetCombustivelById), new { id = resultado.Id }, resultado);
             }
-            catch (ArgumentException ex)
+            catch (InvalidOperationException ex)
             {
                 return BadRequest(ex.Message);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + e.Message);
             }
         }
 
         [HttpPatch("{id:int}")]
         public IActionResult UpdateCombustivel(int id, [FromBody] UpdateCombustivelDTO updateDto)
         {
-            var existingCombustivel = _service.GetCombustivelById(id);
-            if (existingCombustivel == null)
-                return NotFound();
-
             try
             {
                 _service.UpdateCombustivel(id, updateDto);
@@ -77,17 +96,28 @@ namespace ApiPostoCombustivel.Controllers
             {
                 return BadRequest(ex.Message);
             }
+            catch (Exception e)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + e.Message);
+            }
         }
 
         [HttpDelete("{id:int}")]
         public IActionResult DeleteCombustivel(int id)
         {
-            var combustivel = _service.GetCombustivelById(id);
-            if (combustivel == null)
-                return NotFound();
-
-            _service.DeleteCombustivel(id);
-            return NoContent();
+            try
+            {
+                _service.DeleteCombustivel(id);
+                return NoContent();
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + e.Message);
+            }
         }
     }
 }

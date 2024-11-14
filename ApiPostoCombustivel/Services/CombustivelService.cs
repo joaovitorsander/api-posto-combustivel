@@ -1,9 +1,9 @@
 ﻿using ApiPostoCombustivel.Database;
 using ApiPostoCombustivel.Database.Models;
 using ApiPostoCombustivel.Database.Repositories;
-using ApiPostoCombustivel.Database.Repositories.Interfaces;
 using ApiPostoCombustivel.DTO.CombustivelDTO;
 using ApiPostoCombustivel.Parser;
+using ApiPostoCombustivel.Validations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,17 +13,6 @@ namespace ApiPostoCombustivel.Services
     public class CombustivelService
     {
         private readonly CombustivelRepository _combustivelRepository;
-
-        private readonly List<string> tiposValidos = new List<string>
-        {
-            "Gasolina Comum",
-            "Gasolina Aditivada",
-            "Gasolina Premium",
-            "Diesel Comum",
-            "Diesel Aditivado",
-            "Etanol Comum",
-            "Etanol Aditivado"
-        };
 
         public CombustivelService(AppDbContext context)
         {
@@ -50,61 +39,39 @@ namespace ApiPostoCombustivel.Services
 
         public CombustivelDTO AddCombustivel(CombustivelDTO combustivelDto)
         {
-            //Implementar validate
-            if (!tiposValidos.Contains(combustivelDto.Tipo))
-            {
-                throw new ArgumentException("Tipo de combustível inválido.");
-            }
-
-            if (combustivelDto.Estoque <= 0)
-            {
-                throw new ArgumentException("O estoque deve ser maior que zero.");
-            }
-
-            var combustivelExistente = _combustivelRepository.GetCombustivelByTipo(combustivelDto.Tipo);
-            if (combustivelExistente != null)
-            {
-                throw new ArgumentException("Este tipo de combustível já está registrado.");
-            }
+            TipoCombustivelValidator.ValidarTipo(combustivelDto.Tipo);
+            EstoqueCombustivelValidator.ValidarEstoque(combustivelDto.Estoque);
+            CombustivelExistenciaValidator.ValidarCombustivelJaRegistrado(_combustivelRepository, combustivelDto.Tipo);
 
             var combustivel = CombustivelParser.ToModel(combustivelDto);
             _combustivelRepository.AddCombustivel(combustivel);
             return CombustivelParser.ToDTO(combustivel);
         }
 
-
         public void UpdateCombustivel(int id, UpdateCombustivelDTO updateDto)
         {
+            CombustivelExistenciaValidator.ValidarCombustivelExistente(_combustivelRepository, id);
+
             var combustivel = _combustivelRepository.GetCombustivelById(id);
-            if (combustivel == null)
-            {
-                throw new ArgumentException("Combustível não encontrado.");
-            }
 
             if (updateDto.Tipo != null)
             {
-                if (!tiposValidos.Contains(updateDto.Tipo))
-                {
-                    throw new ArgumentException("Tipo de combustível inválido.");
-                }
+                TipoCombustivelValidator.ValidarTipo(updateDto.Tipo);
                 combustivel.Tipo = updateDto.Tipo;
             }
 
             if (updateDto.Estoque.HasValue)
             {
-                if (updateDto.Estoque.Value <= 0)
-                {
-                    throw new ArgumentException("O estoque deve ser maior que zero.");
-                }
+                EstoqueCombustivelValidator.ValidarEstoque(updateDto.Estoque);
                 combustivel.Estoque = updateDto.Estoque.Value;
             }
 
             _combustivelRepository.UpdateCombustivel(combustivel);
         }
 
-
         public void DeleteCombustivel(int id)
         {
+            CombustivelExistenciaValidator.ValidarCombustivelExistente(_combustivelRepository, id);
             _combustivelRepository.DeleteCombustivel(id);
         }
     }
