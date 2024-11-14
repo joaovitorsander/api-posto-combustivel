@@ -6,6 +6,7 @@ using System.Linq;
 using ApiPostoCombustivel.Database;
 using ApiPostoCombustivel.DTO.AbastecimentoDTO;
 using ApiPostoCombustivel.Database.Repositories;
+using ApiPostoCombustivel.Exceptions;
 
 namespace ApiPostoCombustivel.Controllers
 {
@@ -33,10 +34,19 @@ namespace ApiPostoCombustivel.Controllers
         [HttpGet("{id}")]
         public ActionResult<AbastecimentoDTO> GetAbastecimentoById(int id)
         {
-            var abastecimento = _service.GetAbastecimentoById(id);
-            if (abastecimento == null)
-                return NotFound();
-            return Ok(abastecimento);
+            try
+            {
+                var abastecimento = _service.GetAbastecimentoById(id);
+                return Ok(abastecimento);
+            }
+            catch (AbastecimentoNaoEncontradoException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + ex.Message);
+            }
         }
 
         // POST: api/abastecimento
@@ -55,17 +65,21 @@ namespace ApiPostoCombustivel.Controllers
                 var resultado = _service.AddAbastecimento(abastecimentoDto);
                 return CreatedAtAction(nameof(GetAbastecimentoById), new { id = resultado.Id }, resultado);
             }
-            catch (ArgumentException ex)
+            catch (CombustivelNaoEncontradoException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (QuantidadeAbastecimentoInvalidaException ex)
             {
                 return BadRequest(ex.Message);
             }
-            catch (InvalidOperationException ex)
+            catch (EstoqueInsuficienteException ex)
             {
-                return BadRequest("Estoque insuficiente para realizar o abastecimento.");
+                return BadRequest(ex.Message);
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                return StatusCode(500, "Erro interno no servidor: " + e.Message);
+                return StatusCode(500, "Erro interno no servidor: " + ex.Message);
             }
         }
 
@@ -79,18 +93,29 @@ namespace ApiPostoCombustivel.Controllers
                 var resultado = _service.UpdateAbastecimento(id, updateDto);
                 return Ok(resultado);
             }
-            catch (ArgumentException ex)
+            catch (AbastecimentoNaoEncontradoException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (TipoCombustivelInvalidoException ex)
             {
                 return BadRequest(ex.Message);
             }
-          //Criar pasta de exceptions 
-            catch (InvalidOperationException ex)
+            catch (CombustivelNaoEncontradoException ex)
             {
-                return BadRequest("Estoque insuficiente para realizar a atualização do abastecimento.");
+                return BadRequest(ex.Message);
             }
-            catch (Exception e)
+            catch (EstoqueInsuficienteException ex)
             {
-                return StatusCode(500, "Erro interno no servidor: " + e.Message);
+                return BadRequest(ex.Message);
+            }
+            catch (QuantidadeAbastecimentoInvalidaException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + ex.Message);
             }
         }
 
@@ -98,46 +123,56 @@ namespace ApiPostoCombustivel.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteAbastecimento(int id)
         {
-            var abastecimento = _service.GetAbastecimentoById(id);
-            if (abastecimento == null)
-                return NotFound();
-
-            _service.DeleteAbastecimento(id);
-            return NoContent();
+            try
+            {
+                _service.DeleteAbastecimento(id);
+                return NoContent();
+            }
+            catch (AbastecimentoNaoEncontradoException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + ex.Message);
+            }
         }
 
         // GET: api/abastecimento/relatorio/{data}
         [HttpGet("relatorio/{data}")]
         public IActionResult GetRelatorioPorDia(DateTime data)
         {
-            var abastecimentosDoDia = _service.GetAbastecimentos()
-                                              .Where(a => a.Data.Date == data.Date)
-                                              .ToList();
-
-            var tiposCombustiveisAbastecidos = abastecimentosDoDia
-                                                .Select(a => a.TipoCombustivel)
-                                                .Distinct()
-                                                .ToList();
-
-            var estoqueAtual = _combustivelService.GetEstoque()
-                                       .Where(c => tiposCombustiveisAbastecidos.Contains(c.Tipo))
-                                       .ToList();
-
-            return Ok(new
+            try
             {
-                AbastecimentosDiarios = abastecimentosDoDia,
-                EstoqueAtual = estoqueAtual
-            });
+                var relatorio = _service.GetRelatorioPorDia(data);
+                return Ok(relatorio);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + e.Message);
+            }
         }
 
         [HttpGet("tipo/{tipoCombustivel}")]
         public ActionResult<IEnumerable<AbastecimentoDTO>> GetAbastecimentosByTipo(string tipoCombustivel)
         {
-            var abastecimentos = _service.GetAbastecimentosByTipo(tipoCombustivel);
-            if (!abastecimentos.Any())
-                return NotFound();
-
-            return Ok(abastecimentos);
+            try
+            {
+                var abastecimentos = _service.GetAbastecimentosByTipo(tipoCombustivel);
+                return Ok(abastecimentos);
+            }
+            catch (AbastecimentoNaoEncontradoException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (CombustivelNaoEncontradoException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Erro interno no servidor: " + ex.Message);
+            }
         }
 
     }

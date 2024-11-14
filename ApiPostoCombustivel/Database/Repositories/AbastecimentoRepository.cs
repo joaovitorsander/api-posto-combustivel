@@ -58,5 +58,12 @@ namespace ApiPostoCombustivel.Database.Repositories
                 _context.SaveChanges();
             }
         }
+
+        public IEnumerable<TbAbastecimento> GetAbastecimentosByData(DateTime data)
+        {
+            return _context.Abastecimentos
+                           .Where(a => a.Data.Date == data.Date)
+                           .ToList();
+        }
     }
 }

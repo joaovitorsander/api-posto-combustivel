@@ -8,6 +8,7 @@ namespace ApiPostoCombustivel.Database.Repositories.Interfaces
         IEnumerable<TbAbastecimento> GetAbastecimentos();
         TbAbastecimento GetAbastecimentoById(int id);
         IEnumerable<TbAbastecimento> GetAbastecimentosByTipo(string tipoCombustivel);
+        IEnumerable<TbAbastecimento> GetAbastecimentosByData(DateTime data);
         void AddAbastecimento(TbAbastecimento abastecimento);
         void UpdateAbastecimento(TbAbastecimento abastecimento);
         void DeleteAbastecimento(int id);
