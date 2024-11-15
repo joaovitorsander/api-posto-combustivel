@@ -112,6 +112,10 @@ namespace ApiPostoCombustivel.Controllers
             {
                 return BadRequest(ex.Message);
             }
+            catch (DataFimNaoDefinidaException ex)
+            {
+                return BadRequest(ex.Message);
+            }
             catch (Exception e)
             {
                 return StatusCode(500, "Erro interno no servidor: " + e.Message);

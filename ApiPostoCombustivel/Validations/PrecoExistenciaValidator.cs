@@ -14,16 +14,24 @@ namespace ApiPostoCombustivel.Validations
             }
         }
 
-        public static void ValidarDuplicidadePreco(PrecoRepository precoRepository, int combustivelId, DateTime dataInicio, DateTime? dataFim)
+        public static void ValidarDuplicidadePreco(PrecoRepository precoRepository, int combustivelId, DateTime dataInicio, DateTime? dataFim, int? precoIdAtual = null)
         {
-            var precoDuplicado = precoRepository.GetPrecos()
-                .Any(p => p.CombustivelId == combustivelId &&
-                         ((dataFim.HasValue && p.DataFim.HasValue && p.DataFim >= dataInicio && p.DataInicio <= dataFim) ||
-                          (!p.DataFim.HasValue && p.DataInicio <= dataInicio)));
+            var precos = precoRepository.GetPrecos()
+                .Where(p => p.CombustivelId == combustivelId);
+
+            if (precoIdAtual.HasValue)
+            {
+                precos = precos.Where(p => p.Id != precoIdAtual.Value);
+            }
+
+            var precoDuplicado = precos.Any(p =>
+                (dataFim.HasValue && p.DataFim.HasValue && p.DataInicio <= dataFim && p.DataFim >= dataInicio) || 
+                (!p.DataFim.HasValue && p.DataInicio <= dataInicio) ||
+                (dataFim == null && p.DataFim >= dataInicio));
 
             if (precoDuplicado)
             {
-                throw new PrecoDuplicadoException("Já existe um preço registrado para o mesmo período.");
+                throw new PrecoDuplicadoException("Já existe um preço registrado que abrange o mesmo período ou datas conflitantes.");
             }
         }
 
@@ -37,6 +45,18 @@ namespace ApiPostoCombustivel.Validations
             if (ultimoPreco != null && !ultimoPreco.DataFim.HasValue)
             {
                 throw new DataFimNaoDefinidaException("Não é possível adicionar um novo preço sem que o preço anterior tenha uma DataFim definida.");
+            }
+        }
+
+        public static void ValidarDataFimParaAtualizacao(PrecoRepository precoRepository, int combustivelId, int precoId)
+        {
+            var precosFuturos = precoRepository.GetPrecos()
+                .Where(p => p.CombustivelId == combustivelId && p.Id != precoId && p.DataInicio > DateTime.UtcNow)
+                .ToList();
+
+            if (precosFuturos.Any())
+            {
+                throw new DataFimNaoDefinidaException("Não é possível definir a DataFim como null enquanto existir um preço futuro registrado.");
             }
         }
     }

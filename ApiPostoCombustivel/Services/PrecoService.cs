@@ -50,9 +50,9 @@ namespace ApiPostoCombustivel.Services
                 PrecoValidator.ValidarPeriodo(precoDto.DataInicio, precoDto.DataFim.Value);
             }
 
-            PrecoExistenciaValidator.ValidarDuplicidadePreco(_precoRepository, precoDto.CombustivelId, precoDto.DataInicio, precoDto.DataFim);
-
             PrecoExistenciaValidator.ValidarDataFimParaNovoPreco(_precoRepository, precoDto.CombustivelId);
+
+            PrecoExistenciaValidator.ValidarDuplicidadePreco(_precoRepository, precoDto.CombustivelId, precoDto.DataInicio, precoDto.DataFim);
 
             var preco = PrecoParser.ToModel(precoDto);
             _precoRepository.AddPreco(preco);
@@ -65,11 +65,25 @@ namespace ApiPostoCombustivel.Services
 
             var preco = _precoRepository.GetPrecoById(id);
 
-            PrecoValidator.ValidarEdicaoPreco(
-                updateDto.PrecoPorLitro,
-                updateDto.DataInicio,
-                updateDto.DataFim
-            );
+            PrecoValidator.ValidarEdicaoPreco(updateDto.PrecoPorLitro, updateDto.DataInicio, updateDto.DataFim);
+
+
+            if (updateDto.DataFim == null)
+            {
+                PrecoExistenciaValidator.ValidarDataFimParaAtualizacao(_precoRepository, preco.CombustivelId, id);
+            }
+
+
+            if (updateDto.DataInicio.HasValue || updateDto.DataFim.HasValue)
+            {
+                PrecoExistenciaValidator.ValidarDuplicidadePreco(
+                    _precoRepository,
+                    preco.CombustivelId,
+                    updateDto.DataInicio ?? preco.DataInicio,
+                    updateDto.DataFim ?? preco.DataFim,
+                    id
+                );
+            }
 
             if (updateDto.PrecoPorLitro.HasValue)
             {
@@ -85,9 +99,14 @@ namespace ApiPostoCombustivel.Services
             {
                 preco.DataFim = updateDto.DataFim.Value;
             }
+            else if (updateDto.DataFim == null && updateDto.DataFim is not null)
+            {
+                preco.DataFim = null; 
+            }
 
             _precoRepository.UpdatePreco(preco);
         }
+
 
         public void DeletePreco(int id)
         {
