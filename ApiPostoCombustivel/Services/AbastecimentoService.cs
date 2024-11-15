@@ -146,7 +146,6 @@ namespace ApiPostoCombustivel.Services
             return AbastecimentoParser.ToDTO(abastecimento);
         }
 
-
         public void DeleteAbastecimento(int id)
         {
             AbastecimentoValidator.ValidarAbastecimentoExistente(_abastecimentoRepository, id);
@@ -156,19 +155,33 @@ namespace ApiPostoCombustivel.Services
         public object GetRelatorioPorDia(DateTime data)
         {
             var abastecimentosDoDia = _abastecimentoRepository.GetAbastecimentosByData(data);
+
+            var valorTotalPorCombustivel = abastecimentosDoDia
+                .GroupBy(a => a.TipoCombustivel)
+                .Select(g => new
+                {
+                    TipoCombustivel = g.Key,
+                    ValorTotal = g.Sum(a => a.Valor)
+                })
+                .ToList();
+
+            var valorTotalGeral = abastecimentosDoDia.Sum(a => a.Valor);
+
             var tiposCombustiveisAbastecidos = abastecimentosDoDia
-                                                .Select(a => a.TipoCombustivel)
-                                                .Distinct()
-                                                .ToList();
+                .Select(a => a.TipoCombustivel)
+                .Distinct()
+                .ToList();
 
             var estoqueAtual = _combustivelRepository.GetEstoque()
-                                   .Where(c => tiposCombustiveisAbastecidos.Contains(c.Tipo))
-                                   .ToList();
+                .Where(c => tiposCombustiveisAbastecidos.Contains(c.Tipo))
+                .ToList();
 
             return new
             {
                 AbastecimentosDiarios = abastecimentosDoDia,
-                EstoqueAtual = estoqueAtual
+                EstoqueAtual = estoqueAtual,
+                ValorTotalPorCombustivel = valorTotalPorCombustivel,
+                ValorTotalGeral = valorTotalGeral
             };
         }
     }

@@ -62,8 +62,7 @@
               "RelativeToolTip": "ApiPostoCombustivel\\Validations\\PrecoExistenciaValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:52:26.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:52:26.681Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "ApiPostoCombustivel\\Parser\\AbastecimentoParser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:33:55.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:33:55.778Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "ApiPostoCombustivel\\DTO\\AbastecimentoDTO\\AbastecimentoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:33:46.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:33:46.94Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "ApiPostoCombustivel\\Database\\Models\\TbAbastecimento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:33:24.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:33:24.415Z"
             },
             {
               "$type": "Document",
@@ -112,7 +108,7 @@
               "RelativeDocumentMoniker": "ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
               "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
               "RelativeToolTip": "ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAwwFwAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAcwLgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T18:31:05.709Z",
               "EditorCaption": ""
@@ -127,8 +123,7 @@
               "RelativeToolTip": "ApiPostoCombustivel\\Database\\Repositories\\AbastecimentoRepository.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAgwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:29:54.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:29:54.579Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IAbastecimentoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:29:50.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:29:50.549Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:29:43.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:29:43.729Z"
             }
           ]
         }
