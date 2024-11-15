@@ -1,34 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\",
+  "WorkspaceRootPath": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\services\\abastecimentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\services\\abastecimentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\controllers\\precocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\controllers\\precocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\validations\\tipocombustivelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\validations\\tipocombustivelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\services\\precoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\services\\precoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\controllers\\abastecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\validations\\precovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\validations\\precovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\database\\repositories\\precorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\database\\repositories\\precorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\dto\\precodto\\updateprecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\dto\\precodto\\updateprecodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\controllers\\abastecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\controllers\\abastecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\database\\repositories\\abastecimentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\database\\repositories\\abastecimentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\dto\\precodto\\precodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\dto\\precodto\\precodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\database\\repositories\\interfaces\\iabastecimentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\database\\repositories\\interfaces\\iabastecimentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\database\\repositories\\interfaces\\iprecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\database\\repositories\\interfaces\\iprecorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\controllers\\combustivelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\controllers\\combustivelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|c:\\users\\jo\u00E3o\\source\\repos\\apipostocombustivel\\apipostocombustivel\\validations\\abastecimentovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\validations\\abastecimentovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\database\\repositories\\interfaces\\icombustivelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\database\\repositories\\interfaces\\icombustivelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +46,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrecoService.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Services\\PrecoService.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Services\\PrecoService.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Services\\PrecoService.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\Services\\PrecoService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAIwDUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:03:41.308Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdatePrecoDTO.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\DTO\\PrecoDTO\\UpdatePrecoDTO.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\DTO\\PrecoDTO\\UpdatePrecoDTO.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\DTO\\PrecoDTO\\UpdatePrecoDTO.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\DTO\\PrecoDTO\\UpdatePrecoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:54:27.038Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -50,93 +85,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TipoCombustivelValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Validations\\TipoCombustivelValidator.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Validations\\TipoCombustivelValidator.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Validations\\TipoCombustivelValidator.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Validations\\TipoCombustivelValidator.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAMwBMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:44:59.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAbastecimentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IAbastecimentoRepository.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IAbastecimentoRepository.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IAbastecimentoRepository.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IAbastecimentoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:40:44.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AbastecimentoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Database\\Repositories\\AbastecimentoRepository.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Database\\Repositories\\AbastecimentoRepository.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Database\\Repositories\\AbastecimentoRepository.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Database\\Repositories\\AbastecimentoRepository.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAswEMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:40:30.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CombustivelController.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Controllers\\CombustivelController.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Controllers\\CombustivelController.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Controllers\\CombustivelController.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\CombustivelController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AbastecimentoController.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:32:47.58Z",
+              "WhenOpened": "2024-11-15T03:24:48.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AbastecimentoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Validations\\AbastecimentoValidator.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Validations\\AbastecimentoValidator.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Validations\\AbastecimentoValidator.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Validations\\AbastecimentoValidator.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAswCcAAAAJAAAAAAAAAA==",
+              "Title": "PrecoDTO.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\DTO\\PrecoDTO\\PrecoDTO.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\DTO\\PrecoDTO\\PrecoDTO.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\DTO\\PrecoDTO\\PrecoDTO.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\DTO\\PrecoDTO\\PrecoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:08:37.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AbastecimentoController.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:05:09.079Z",
+              "WhenOpened": "2024-11-15T03:18:37.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AbastecimentoService.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAApwDQAAABCAAAAAAAAAA==",
+              "Title": "PrecoController.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\PrecoController.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Controllers\\PrecoController.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\PrecoController.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\PrecoController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAkwHIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:05:07.289Z",
+              "WhenOpened": "2024-11-15T03:17:10.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrecoValidator.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Validations\\PrecoValidator.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Validations\\PrecoValidator.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Validations\\PrecoValidator.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\Validations\\PrecoValidator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:06:03.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrecoRepository.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Repositories\\PrecoRepository.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Database\\Repositories\\PrecoRepository.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Repositories\\PrecoRepository.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\Database\\Repositories\\PrecoRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:01:42.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPrecoRepository.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IPrecoRepository.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IPrecoRepository.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IPrecoRepository.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IPrecoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:01:16.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICombustivelRepository.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\ICombustivelRepository.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\ICombustivelRepository.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\ICombustivelRepository.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\ICombustivelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T03:00:11.571Z",
               "EditorCaption": ""
             }
           ]

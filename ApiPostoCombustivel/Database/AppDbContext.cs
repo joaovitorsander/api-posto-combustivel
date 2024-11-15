@@ -12,6 +12,7 @@ namespace ApiPostoCombustivel.Database
 
         public virtual DbSet<TbAbastecimento> Abastecimentos { get; set; }
         public virtual DbSet<TbCombustivel> Combustiveis { get; set; } 
+        public virtual DbSet<TbPreco> Precos { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
