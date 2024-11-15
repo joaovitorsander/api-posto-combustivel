@@ -2,6 +2,7 @@
 using ApiPostoCombustivel.Database.Models;
 using ApiPostoCombustivel.Database.Repositories;
 using ApiPostoCombustivel.DTO.CombustivelDTO;
+using ApiPostoCombustivel.Exceptions;
 using ApiPostoCombustivel.Parser;
 using ApiPostoCombustivel.Validations;
 using System;
@@ -38,7 +39,13 @@ namespace ApiPostoCombustivel.Services
             FuelTypeValidator.ValidateType(tipo);
 
             var fuel = _fuelRepository.GetFuelByType(tipo);
-            return fuel != null ? FuelParser.ToDTO(fuel) : null;
+
+            if (fuel == null)
+            {
+                throw new FuelNotFoundException($"Combustível do tipo '{tipo}' não encontrado.");
+            }
+
+            return FuelParser.ToDTO(fuel);
         }
 
         public FuelDTO AddFuel(FuelDTO fuelDto)

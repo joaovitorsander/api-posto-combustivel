@@ -100,3 +100,1591 @@
 2024-11-15 19:28:04 [DBG] Connection id "0HN85OJ0CUK5D" completed keep alive response.
 2024-11-15 19:28:04 [DBG] 'AppDbContext' disposed.
 2024-11-15 19:28:04 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels - 200 null application/json; charset=utf-8 372.0884ms
+2024-11-15 20:02:22 [INF] Inicializando aplicação...
+2024-11-15 20:02:22 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-15 20:02:22 [INF] Aplicação iniciada com sucesso.
+2024-11-15 20:02:22 [DBG] Hosting starting
+2024-11-15 20:02:22 [INF] Now listening on: http://localhost:5134
+2024-11-15 20:02:22 [DBG] Loaded hosting startup assembly ApiPostoCombustivel
+2024-11-15 20:02:22 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-15 20:02:22 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-15 20:02:22 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-15 20:02:23 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 20:02:23 [INF] Hosting environment: Development
+2024-11-15 20:02:23 [INF] Content root path: D:\Documentos\Programação\Trabalho final - Juliano\api-posto-combustivel\ApiPostoCombustivel
+2024-11-15 20:02:23 [DBG] Hosting started
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP4" received FIN.
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP4" accepted.
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP4" started.
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP4" disconnecting.
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP4" stopped.
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP5" accepted.
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP5" started.
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP6" accepted.
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP6" started.
+2024-11-15 20:02:23 [INF] Request starting HTTP/1.1 GET http://localhost:5134/swagger/index.html - null null
+2024-11-15 20:02:23 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-15 20:02:23 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-15 20:02:23 [DBG] Request did not match any endpoints
+2024-11-15 20:02:23 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-15 20:02:23 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-15 20:02:23 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-15 20:02:23 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP5" completed keep alive response.
+2024-11-15 20:02:23 [INF] Request finished HTTP/1.1 GET http://localhost:5134/swagger/index.html - 200 null text/html;charset=utf-8 154.3454ms
+2024-11-15 20:02:23 [INF] Request starting HTTP/1.1 GET http://localhost:5134/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP5" completed keep alive response.
+2024-11-15 20:02:23 [INF] Request finished HTTP/1.1 GET http://localhost:5134/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 4.6395ms
+2024-11-15 20:02:23 [INF] Request starting HTTP/1.1 GET http://localhost:5134/_vs/browserLink - null null
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:02:23 [INF] Request finished HTTP/1.1 GET http://localhost:5134/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.0875ms
+2024-11-15 20:02:23 [INF] Request starting HTTP/1.1 GET http://localhost:5134/swagger/v1/swagger.json - null null
+2024-11-15 20:02:23 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-15 20:02:23 [DBG] Request did not match any endpoints
+2024-11-15 20:02:23 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:02:23 [INF] Request finished HTTP/1.1 GET http://localhost:5134/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.8857ms
+2024-11-15 20:04:47 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/supplies - null null
+2024-11-15 20:04:47 [DBG] 1 candidate(s) found for the request path '/api/supplies'
+2024-11-15 20:04:47 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.SupplyController.GetSupplies (ApiPostoCombustivel)' with route pattern 'api/supplies' is valid for the request path '/api/supplies'
+2024-11-15 20:04:47 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.SupplyController.GetSupplies (ApiPostoCombustivel)'
+2024-11-15 20:04:47 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:04:47 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.SupplyController.GetSupplies (ApiPostoCombustivel)'
+2024-11-15 20:04:47 [INF] Route matched with {action = "GetSupplies", controller = "Supply"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiPostoCombustivel.DTO.AbastecimentoDTO.SupplyDTO]] GetSupplies() on controller ApiPostoCombustivel.Controllers.SupplyController (ApiPostoCombustivel).
+2024-11-15 20:04:47 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:04:47 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:04:47 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:04:47 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:04:47 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:04:47 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.SupplyController (ApiPostoCombustivel)
+2024-11-15 20:04:47 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-15 20:04:47 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.SupplyController (ApiPostoCombustivel)
+2024-11-15 20:04:47 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:04:47 [DBG] Compiling query expression: 
+'DbSet<TbSupply>()'
+2024-11-15 20:04:47 [DBG] Generated query execution expression: 
+'queryContext => new QueryingEnumerable<TbSupply>(
+    queryContext, 
+    InMemoryShapedQueryCompilingExpressionVisitor.Table(
+        queryContext: queryContext, 
+        entityType: EntityType: TbSupply)
+        .Select(valueBuffer => new ValueBuffer(new object[]
+        { 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<int>(
+                valueBuffer: valueBuffer, 
+                index: 0, 
+                property: Property: TbSupply.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<DateTime>(
+                valueBuffer: valueBuffer, 
+                index: 1, 
+                property: Property: TbSupply.Date (DateTime) Required), 
+            ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbSupply.FuelType (string)), 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<double>(
+                valueBuffer: valueBuffer, 
+                index: 3, 
+                property: Property: TbSupply.Quantity (double) Required), 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<double>(
+                valueBuffer: valueBuffer, 
+                index: 4, 
+                property: Property: TbSupply.TotalValue (double) Required) 
+        })), 
+    Func<QueryContext, ValueBuffer, TbSupply>, 
+    ApiPostoCombustivel.Database.AppDbContext, 
+    False, 
+    True
+)'
+2024-11-15 20:04:47 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:04:47 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:04:47 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:04:47 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:04:47 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:04:47 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:04:47 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ApiPostoCombustivel.Database.Models.TbSupply, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ApiPostoCombustivel.DTO.AbastecimentoDTO.SupplyDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 20:04:47 [INF] Executed action ApiPostoCombustivel.Controllers.SupplyController.GetSupplies (ApiPostoCombustivel) in 331.6752ms
+2024-11-15 20:04:47 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.SupplyController.GetSupplies (ApiPostoCombustivel)'
+2024-11-15 20:04:47 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:04:47 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:04:47 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/supplies - 200 null application/json; charset=utf-8 373.9742ms
+2024-11-15 20:05:14 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/fuels - application/json 47
+2024-11-15 20:05:14 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:05:14 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:05:14 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:05:14 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:05:14 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:05:14 [INF] Route matched with {action = "AddFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddFuel(ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:05:14 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:05:14 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:05:14 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:05:14 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:05:14 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:05:14 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:05:14 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:05:14 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:05:14 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' using the name '' in request data ...
+2024-11-15 20:05:14 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 20:05:14 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:00000004": started reading request body.
+2024-11-15 20:05:14 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:00000004": done reading request body.
+2024-11-15 20:05:14 [DBG] JSON input formatter succeeded, deserializing to type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'
+2024-11-15 20:05:14 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:05:14 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:05:14 [DBG] Attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:05:14 [DBG] Done attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:05:14 [INF] Iniciando o processo de Adicionar Combustível.
+2024-11-15 20:05:14 [INF] Tentando adicionar um novo tipo de combustível: Gasolina Comum com estoque: 1500.
+2024-11-15 20:05:14 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:05:14 [DBG] Compiling query expression: 
+'DbSet<TbFuel>()
+    .FirstOrDefault(c => c.Type == __type_0)'
+2024-11-15 20:05:14 [DBG] Generated query execution expression: 
+'queryContext => new QueryingEnumerable<TbFuel>(
+    queryContext, 
+    new ResultEnumerable(() => InMemoryShapedQueryCompilingExpressionVisitor.Table(
+        queryContext: queryContext, 
+        entityType: EntityType: TbFuel)
+        .Where(valueBuffer => DefaultValueComparer<string>.Equals(
+            left: ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)), 
+            right: InMemoryExpressionTranslatingExpressionVisitor.GetParameterValue<string>(
+                queryContext: queryContext, 
+                parameterName: "__type_0")))
+        .Select(valueBuffer => new ValueBuffer(new object[]
+        { 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<int>(
+                valueBuffer: valueBuffer, 
+                index: 0, 
+                property: Property: TbFuel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<double>(
+                valueBuffer: valueBuffer, 
+                index: 1, 
+                property: Property: TbFuel.Stock (double) Required), 
+            ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)) 
+        }))
+        .FirstOrDefault()), 
+    Func<QueryContext, ValueBuffer, TbFuel>, 
+    ApiPostoCombustivel.Database.AppDbContext, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-11-15 20:05:14 [DBG] 'AppDbContext' generated a value for the property 'TbFuel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:05:14 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:05:14 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-11-15 20:05:14 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-11-15 20:05:14 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-11-15 20:05:14 [INF] Saved 1 entities to in-memory store.
+2024-11-15 20:05:14 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:05:14 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-11-15 20:05:14 [INF] Tipo de combustível adicionado com sucesso: Gasolina Comum com ID: 1.
+2024-11-15 20:05:14 [INF] Processo de Adicionar Combustível finalizado.
+2024-11-15 20:05:14 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:05:14 [DBG] No information found on request to perform content negotiation.
+2024-11-15 20:05:14 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:05:14 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:05:14 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:05:14 [INF] Executing CreatedAtActionResult, writing value of type 'ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO'.
+2024-11-15 20:05:14 [DBG] Found the endpoints ["ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)"] for address (id=[1],action=[GetFuelById],controller=[Fuel])
+2024-11-15 20:05:14 [DBG] Successfully processed template api/fuels/{id:int} for ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel) resulting in /api/fuels/1 and 
+2024-11-15 20:05:14 [DBG] Link generation succeeded for endpoints ["ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)"] with result /api/fuels/1
+2024-11-15 20:05:14 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel) in 167.7682ms
+2024-11-15 20:05:14 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:05:14 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:05:14 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:05:14 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/fuels - 201 null application/json; charset=utf-8 187.7011ms
+2024-11-15 20:07:24 [DBG] Connection id "0HN85P68BVUP5" received FIN.
+2024-11-15 20:07:24 [DBG] Connection id "0HN85P68BVUP5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 20:07:24 [DBG] Connection id "0HN85P68BVUP5" disconnecting.
+2024-11-15 20:07:24 [DBG] Connection id "0HN85P68BVUP5" stopped.
+2024-11-15 20:07:28 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels - null null
+2024-11-15 20:07:28 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:07:28 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:07:28 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:07:28 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:07:28 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:07:28 [INF] Route matched with {action = "GetInventory", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO]] GetInventory() on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:07:28 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:07:28 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:07:28 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:07:28 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:07:28 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:07:28 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:07:28 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:07:28 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:07:28 [DBG] Compiling query expression: 
+'DbSet<TbFuel>()'
+2024-11-15 20:07:28 [DBG] Generated query execution expression: 
+'queryContext => new QueryingEnumerable<TbFuel>(
+    queryContext, 
+    InMemoryShapedQueryCompilingExpressionVisitor.Table(
+        queryContext: queryContext, 
+        entityType: EntityType: TbFuel)
+        .Select(valueBuffer => new ValueBuffer(new object[]
+        { 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<int>(
+                valueBuffer: valueBuffer, 
+                index: 0, 
+                property: Property: TbFuel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<double>(
+                valueBuffer: valueBuffer, 
+                index: 1, 
+                property: Property: TbFuel.Stock (double) Required), 
+            ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)) 
+        })), 
+    Func<QueryContext, ValueBuffer, TbFuel>, 
+    ApiPostoCombustivel.Database.AppDbContext, 
+    False, 
+    True
+)'
+2024-11-15 20:07:28 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:07:28 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:07:28 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:07:28 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:07:28 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:07:28 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:07:28 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:07:28 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ApiPostoCombustivel.Database.Models.TbFuel, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 20:07:28 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel) in 41.5374ms
+2024-11-15 20:07:28 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:07:28 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:07:28 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:07:28 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels - 200 null application/json; charset=utf-8 56.7669ms
+2024-11-15 20:07:35 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/2 - null null
+2024-11-15 20:07:35 [DBG] 1 candidate(s) found for the request path '/api/fuels/2'
+2024-11-15 20:07:35 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)' with route pattern 'api/fuels/{id:int}' is valid for the request path '/api/fuels/2'
+2024-11-15 20:07:35 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)'
+2024-11-15 20:07:35 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:07:35 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)'
+2024-11-15 20:07:35 [INF] Route matched with {action = "GetFuelById", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelById(Int32) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:07:35 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:07:35 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:07:35 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:07:35 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:07:35 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:07:35 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:07:35 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:07:35 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:07:35 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-15 20:07:35 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:07:35 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:07:35 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:07:35 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-15 20:07:35 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:07:35 [DBG] Compiling query expression: 
+'DbSet<TbFuel>()
+    .FirstOrDefault(c => c.Id == __id_0)'
+2024-11-15 20:07:35 [DBG] Generated query execution expression: 
+'queryContext => new QueryingEnumerable<TbFuel>(
+    queryContext, 
+    new ResultEnumerable(() => InMemoryShapedQueryCompilingExpressionVisitor.Table(
+        queryContext: queryContext, 
+        entityType: EntityType: TbFuel)
+        .Where(valueBuffer => DefaultValueComparer<int>.Equals(
+            left: ExpressionExtensions.ValueBufferTryReadValue<int>(
+                valueBuffer: valueBuffer, 
+                index: 0, 
+                property: Property: TbFuel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            right: InMemoryExpressionTranslatingExpressionVisitor.GetParameterValue<int>(
+                queryContext: queryContext, 
+                parameterName: "__id_0")))
+        .Select(valueBuffer => new ValueBuffer(new object[]
+        { 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<int>(
+                valueBuffer: valueBuffer, 
+                index: 0, 
+                property: Property: TbFuel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<double>(
+                valueBuffer: valueBuffer, 
+                index: 1, 
+                property: Property: TbFuel.Stock (double) Required), 
+            ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)) 
+        }))
+        .FirstOrDefault()), 
+    Func<QueryContext, ValueBuffer, TbFuel>, 
+    ApiPostoCombustivel.Database.AppDbContext, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-11-15 20:07:35 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:07:35 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:07:35 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-15 20:07:35 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-11-15 20:07:35 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel) in 52.9726ms
+2024-11-15 20:07:35 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)'
+2024-11-15 20:07:35 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:07:35 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:07:35 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels/2 - 404 null text/plain; charset=utf-8 67.6881ms
+2024-11-15 20:07:39 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/1 - null null
+2024-11-15 20:07:39 [DBG] 1 candidate(s) found for the request path '/api/fuels/1'
+2024-11-15 20:07:39 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)' with route pattern 'api/fuels/{id:int}' is valid for the request path '/api/fuels/1'
+2024-11-15 20:07:39 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)'
+2024-11-15 20:07:39 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:07:39 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)'
+2024-11-15 20:07:39 [INF] Route matched with {action = "GetFuelById", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelById(Int32) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:07:39 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:07:39 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:07:39 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:07:39 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:07:39 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:07:39 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:07:39 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:07:39 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:07:39 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-15 20:07:39 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:07:39 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:07:39 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:07:39 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-15 20:07:39 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:07:39 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:07:39 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:07:39 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:07:39 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:07:39 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:07:39 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:07:39 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:07:39 [INF] Executing OkObjectResult, writing value of type 'ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO'.
+2024-11-15 20:07:39 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel) in 14.9ms
+2024-11-15 20:07:39 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)'
+2024-11-15 20:07:39 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:07:39 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:07:39 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels/1 - 200 null application/json; charset=utf-8 27.6136ms
+2024-11-15 20:07:47 [INF] Request starting HTTP/1.1 PATCH http://localhost:5134/api/fuels/2 - application/json 36
+2024-11-15 20:07:47 [DBG] 1 candidate(s) found for the request path '/api/fuels/2'
+2024-11-15 20:07:47 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)' with route pattern 'api/fuels/{id:int}' is valid for the request path '/api/fuels/2'
+2024-11-15 20:07:47 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:07:47 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:07:47 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:07:47 [INF] Route matched with {action = "UpdateFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateFuel(Int32, ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:07:47 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:07:47 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:07:47 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:07:47 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:07:47 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:07:47 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:07:47 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:07:47 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:07:47 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-15 20:07:47 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:07:47 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:07:47 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:07:47 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-15 20:07:47 [DBG] Attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' ...
+2024-11-15 20:07:47 [DBG] Attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' using the name '' in request data ...
+2024-11-15 20:07:47 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 20:07:47 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:00000008": started reading request body.
+2024-11-15 20:07:47 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:00000008": done reading request body.
+2024-11-15 20:07:47 [DBG] JSON input formatter succeeded, deserializing to type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'
+2024-11-15 20:07:47 [DBG] Done attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:07:47 [DBG] Done attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:07:47 [DBG] Attempting to validate the bound parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' ...
+2024-11-15 20:07:47 [DBG] Done attempting to validate the bound parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:07:47 [INF] Iniciando o processo de Atualização do Combustível com ID: 2.
+2024-11-15 20:07:47 [INF] Atualizando o combustível com ID: 2. Dados recebidos: Tipo: string, Estoque: 0.
+2024-11-15 20:07:47 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:07:47 [WRN] Combustível não encontrado para o ID: 2. Exceção: Combustível não encontrado.
+2024-11-15 20:07:47 [INF] Processo de Atualização do Combustível finalizado para o ID: 2.
+2024-11-15 20:07:47 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:07:47 [DBG] No information found on request to perform content negotiation.
+2024-11-15 20:07:47 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:07:47 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:07:47 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-15 20:07:47 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-11-15 20:07:47 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel) in 42.3505ms
+2024-11-15 20:07:47 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:07:47 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:07:47 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:07:47 [INF] Request finished HTTP/1.1 PATCH http://localhost:5134/api/fuels/2 - 404 null text/plain; charset=utf-8 56.1301ms
+2024-11-15 20:08:00 [INF] Request starting HTTP/1.1 PATCH http://localhost:5134/api/fuels/1 - application/json 19
+2024-11-15 20:08:00 [DBG] 1 candidate(s) found for the request path '/api/fuels/1'
+2024-11-15 20:08:00 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)' with route pattern 'api/fuels/{id:int}' is valid for the request path '/api/fuels/1'
+2024-11-15 20:08:00 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:08:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:08:00 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:08:00 [INF] Route matched with {action = "UpdateFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateFuel(Int32, ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:08:00 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:08:00 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:08:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-15 20:08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:08:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:08:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:08:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-15 20:08:00 [DBG] Attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' ...
+2024-11-15 20:08:00 [DBG] Attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' using the name '' in request data ...
+2024-11-15 20:08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 20:08:00 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:00000009": started reading request body.
+2024-11-15 20:08:00 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:00000009": done reading request body.
+2024-11-15 20:08:00 [DBG] JSON input formatter succeeded, deserializing to type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'
+2024-11-15 20:08:00 [DBG] Done attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:08:00 [DBG] Done attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:08:00 [DBG] Attempting to validate the bound parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' ...
+2024-11-15 20:08:00 [DBG] Done attempting to validate the bound parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:08:00 [INF] Iniciando o processo de Atualização do Combustível com ID: 1.
+2024-11-15 20:08:00 [INF] Atualizando o combustível com ID: 1. Dados recebidos: Tipo: null, Estoque: 1000.
+2024-11-15 20:08:00 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:08:00 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:08:00 [DBG] Compiling query expression: 
+'DbSet<TbFuel>()
+    .FirstOrDefault(c => c.Id == __fuel_Id_0)'
+2024-11-15 20:08:00 [DBG] Generated query execution expression: 
+'queryContext => new QueryingEnumerable<TbFuel>(
+    queryContext, 
+    new ResultEnumerable(() => InMemoryShapedQueryCompilingExpressionVisitor.Table(
+        queryContext: queryContext, 
+        entityType: EntityType: TbFuel)
+        .Where(valueBuffer => DefaultValueComparer<int>.Equals(
+            left: ExpressionExtensions.ValueBufferTryReadValue<int>(
+                valueBuffer: valueBuffer, 
+                index: 0, 
+                property: Property: TbFuel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            right: InMemoryExpressionTranslatingExpressionVisitor.GetParameterValue<int>(
+                queryContext: queryContext, 
+                parameterName: "__fuel_Id_0")))
+        .Select(valueBuffer => new ValueBuffer(new object[]
+        { 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<int>(
+                valueBuffer: valueBuffer, 
+                index: 0, 
+                property: Property: TbFuel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<double>(
+                valueBuffer: valueBuffer, 
+                index: 1, 
+                property: Property: TbFuel.Stock (double) Required), 
+            ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)) 
+        }))
+        .FirstOrDefault()), 
+    Func<QueryContext, ValueBuffer, TbFuel>, 
+    ApiPostoCombustivel.Database.AppDbContext, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-11-15 20:08:00 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-11-15 20:08:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-11-15 20:08:00 [DBG] The unchanged property 'TbFuel.Stock' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-15 20:08:00 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:08:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-11-15 20:08:00 [INF] Saved 1 entities to in-memory store.
+2024-11-15 20:08:00 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:08:00 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-11-15 20:08:00 [INF] Combustível com ID: 1 atualizado com sucesso.
+2024-11-15 20:08:00 [INF] Processo de Atualização do Combustível finalizado para o ID: 1.
+2024-11-15 20:08:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-11-15 20:08:00 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel) in 32.8315ms
+2024-11-15 20:08:00 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:08:00 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:08:00 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:08:00 [INF] Request finished HTTP/1.1 PATCH http://localhost:5134/api/fuels/1 - 204 null null 46.6245ms
+2024-11-15 20:08:03 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels - null null
+2024-11-15 20:08:03 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:08:03 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:08:03 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:08:03 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:08:03 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:08:03 [INF] Route matched with {action = "GetInventory", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO]] GetInventory() on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:08:03 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:08:03 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:08:03 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:08:03 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:08:03 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:08:03 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:08:03 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:08:03 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:08:03 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:08:03 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:08:03 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:08:03 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:08:03 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:08:03 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:08:03 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:08:03 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ApiPostoCombustivel.Database.Models.TbFuel, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 20:08:03 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel) in 9.5531ms
+2024-11-15 20:08:03 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:08:03 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:08:03 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:08:03 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels - 200 null application/json; charset=utf-8 22.4063ms
+2024-11-15 20:08:59 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels - null null
+2024-11-15 20:08:59 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:08:59 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:08:59 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:08:59 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:08:59 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:08:59 [INF] Route matched with {action = "GetInventory", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO]] GetInventory() on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:08:59 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:08:59 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:08:59 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:08:59 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:08:59 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:08:59 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:08:59 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:08:59 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:08:59 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:08:59 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:08:59 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:08:59 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:08:59 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:08:59 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:08:59 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:08:59 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ApiPostoCombustivel.Database.Models.TbFuel, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 20:08:59 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel) in 11.379ms
+2024-11-15 20:08:59 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:08:59 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:08:59 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:08:59 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels - 200 null application/json; charset=utf-8 49.8065ms
+2024-11-15 20:09:18 [INF] Request starting HTTP/1.1 PATCH http://localhost:5134/api/fuels/1 - application/json 28
+2024-11-15 20:09:18 [DBG] 1 candidate(s) found for the request path '/api/fuels/1'
+2024-11-15 20:09:18 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)' with route pattern 'api/fuels/{id:int}' is valid for the request path '/api/fuels/1'
+2024-11-15 20:09:18 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:09:18 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:09:18 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:09:18 [INF] Route matched with {action = "UpdateFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateFuel(Int32, ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:09:18 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:09:18 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:09:18 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:09:18 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:09:18 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:09:18 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:09:18 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:09:18 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:09:18 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-15 20:09:18 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:09:18 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:09:18 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:09:18 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-15 20:09:18 [DBG] Attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' ...
+2024-11-15 20:09:18 [DBG] Attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' using the name '' in request data ...
+2024-11-15 20:09:18 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 20:09:18 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:0000000C": started reading request body.
+2024-11-15 20:09:18 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:0000000C": done reading request body.
+2024-11-15 20:09:18 [DBG] JSON input formatter succeeded, deserializing to type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'
+2024-11-15 20:09:18 [DBG] Done attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:09:18 [DBG] Done attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:09:18 [DBG] Attempting to validate the bound parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' ...
+2024-11-15 20:09:18 [DBG] Done attempting to validate the bound parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:09:18 [INF] Iniciando o processo de Atualização do Combustível com ID: 1.
+2024-11-15 20:09:18 [INF] Atualizando o combustível com ID: 1. Dados recebidos: Tipo: Gasolina Adi, Estoque: null.
+2024-11-15 20:09:18 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:09:18 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:09:18 [WRN] Tipo de combustível inválido para o ID: 1. Tipo informado: Gasolina Adi. Exceção: Tipo de combustível inválido.
+2024-11-15 20:09:18 [INF] Processo de Atualização do Combustível finalizado para o ID: 1.
+2024-11-15 20:09:18 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:09:18 [DBG] No information found on request to perform content negotiation.
+2024-11-15 20:09:18 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:09:18 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:09:18 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-15 20:09:18 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-11-15 20:09:18 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel) in 34.0644ms
+2024-11-15 20:09:18 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:09:18 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:09:18 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:09:18 [INF] Request finished HTTP/1.1 PATCH http://localhost:5134/api/fuels/1 - 400 null text/plain; charset=utf-8 48.4219ms
+2024-11-15 20:09:35 [INF] Request starting HTTP/1.1 PATCH http://localhost:5134/api/fuels/1 - application/json 34
+2024-11-15 20:09:35 [DBG] 1 candidate(s) found for the request path '/api/fuels/1'
+2024-11-15 20:09:35 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)' with route pattern 'api/fuels/{id:int}' is valid for the request path '/api/fuels/1'
+2024-11-15 20:09:35 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:09:35 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:09:35 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:09:35 [INF] Route matched with {action = "UpdateFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateFuel(Int32, ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:09:35 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:09:35 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:09:35 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:09:35 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:09:35 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:09:35 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:09:35 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:09:35 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:09:35 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-15 20:09:35 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:09:35 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:09:35 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:09:35 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-15 20:09:35 [DBG] Attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' ...
+2024-11-15 20:09:35 [DBG] Attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' using the name '' in request data ...
+2024-11-15 20:09:35 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 20:09:35 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:0000000D": started reading request body.
+2024-11-15 20:09:35 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:0000000D": done reading request body.
+2024-11-15 20:09:35 [DBG] JSON input formatter succeeded, deserializing to type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'
+2024-11-15 20:09:35 [DBG] Done attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:09:35 [DBG] Done attempting to bind parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:09:35 [DBG] Attempting to validate the bound parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO' ...
+2024-11-15 20:09:35 [DBG] Done attempting to validate the bound parameter 'updateDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.UpdateFuelDTO'.
+2024-11-15 20:09:35 [INF] Iniciando o processo de Atualização do Combustível com ID: 1.
+2024-11-15 20:09:35 [INF] Atualizando o combustível com ID: 1. Dados recebidos: Tipo: Gasolina Aditivada, Estoque: null.
+2024-11-15 20:09:35 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:09:35 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:09:35 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-11-15 20:09:35 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-11-15 20:09:35 [DBG] The unchanged property 'TbFuel.Type' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-11-15 20:09:35 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:09:35 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-11-15 20:09:35 [INF] Saved 1 entities to in-memory store.
+2024-11-15 20:09:35 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:09:35 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-11-15 20:09:35 [INF] Combustível com ID: 1 atualizado com sucesso.
+2024-11-15 20:09:35 [INF] Processo de Atualização do Combustível finalizado para o ID: 1.
+2024-11-15 20:09:35 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-11-15 20:09:35 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel) in 28.1739ms
+2024-11-15 20:09:35 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.UpdateFuel (ApiPostoCombustivel)'
+2024-11-15 20:09:35 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:09:35 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:09:35 [INF] Request finished HTTP/1.1 PATCH http://localhost:5134/api/fuels/1 - 204 null null 42.1064ms
+2024-11-15 20:09:39 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels - null null
+2024-11-15 20:09:39 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:09:39 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:09:39 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:09:39 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:09:39 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:09:39 [INF] Route matched with {action = "GetInventory", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO]] GetInventory() on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:09:39 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:09:39 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:09:39 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:09:39 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:09:39 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:09:39 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:09:39 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:09:39 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:09:39 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:09:39 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:09:39 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:09:39 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:09:39 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:09:39 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:09:39 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:09:39 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ApiPostoCombustivel.Database.Models.TbFuel, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 20:09:39 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel) in 8.5017ms
+2024-11-15 20:09:39 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:09:39 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:09:39 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:09:39 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels - 200 null application/json; charset=utf-8 22.2822ms
+2024-11-15 20:09:56 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/fuels - application/json 51
+2024-11-15 20:09:56 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:09:56 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:09:56 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:09:56 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:09:56 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:09:56 [INF] Route matched with {action = "AddFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddFuel(ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:09:56 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:09:56 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:09:56 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:09:56 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:09:56 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:09:56 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:09:56 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:09:56 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:09:56 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' using the name '' in request data ...
+2024-11-15 20:09:56 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 20:09:56 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:0000000F": started reading request body.
+2024-11-15 20:09:56 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:0000000F": done reading request body.
+2024-11-15 20:09:56 [DBG] JSON input formatter succeeded, deserializing to type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'
+2024-11-15 20:09:56 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:09:56 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:09:56 [DBG] Attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:09:56 [DBG] Done attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:09:56 [INF] Iniciando o processo de Adicionar Combustível.
+2024-11-15 20:09:56 [INF] Tentando adicionar um novo tipo de combustível: Gasolina Aditivada com estoque: 1500.
+2024-11-15 20:09:56 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:09:56 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:09:56 [WRN] Tipo de combustível já registrado: Gasolina Aditivada. Exceção: Este tipo de combustível já está registrado.
+2024-11-15 20:09:56 [INF] Processo de Adicionar Combustível finalizado.
+2024-11-15 20:09:56 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:09:56 [DBG] No information found on request to perform content negotiation.
+2024-11-15 20:09:56 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:09:56 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:09:56 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-15 20:09:56 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-11-15 20:09:56 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel) in 32.4229ms
+2024-11-15 20:09:56 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:09:56 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:09:56 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:09:56 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/fuels - 400 null text/plain; charset=utf-8 45.5801ms
+2024-11-15 20:10:05 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/fuels - application/json 47
+2024-11-15 20:10:05 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:10:05 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:10:05 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:10:05 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:10:05 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:10:05 [INF] Route matched with {action = "AddFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddFuel(ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:10:05 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:10:05 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:10:05 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:10:05 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:10:05 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:10:05 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:05 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:05 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:10:05 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' using the name '' in request data ...
+2024-11-15 20:10:05 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 20:10:05 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:00000010": started reading request body.
+2024-11-15 20:10:05 [DBG] Connection id "0HN85P68BVUP6", Request id "0HN85P68BVUP6:00000010": done reading request body.
+2024-11-15 20:10:05 [DBG] JSON input formatter succeeded, deserializing to type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'
+2024-11-15 20:10:05 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:10:05 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:10:05 [DBG] Attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:10:05 [DBG] Done attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:10:05 [INF] Iniciando o processo de Adicionar Combustível.
+2024-11-15 20:10:05 [INF] Tentando adicionar um novo tipo de combustível: Gasolina Comum com estoque: 3000.
+2024-11-15 20:10:05 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:10:05 [DBG] 'AppDbContext' generated a value for the property 'TbFuel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:05 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:05 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-11-15 20:10:05 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-11-15 20:10:05 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-11-15 20:10:05 [INF] Saved 1 entities to in-memory store.
+2024-11-15 20:10:05 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:05 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-11-15 20:10:05 [INF] Tipo de combustível adicionado com sucesso: Gasolina Comum com ID: 2.
+2024-11-15 20:10:05 [INF] Processo de Adicionar Combustível finalizado.
+2024-11-15 20:10:05 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:10:05 [DBG] No information found on request to perform content negotiation.
+2024-11-15 20:10:05 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:10:05 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:10:05 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:10:05 [INF] Executing CreatedAtActionResult, writing value of type 'ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO'.
+2024-11-15 20:10:05 [DBG] Found the endpoints ["ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)"] for address (id=[2],action=[GetFuelById],controller=[Fuel])
+2024-11-15 20:10:05 [DBG] Successfully processed template api/fuels/{id:int} for ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel) resulting in /api/fuels/2 and 
+2024-11-15 20:10:05 [DBG] Link generation succeeded for endpoints ["ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)"] with result /api/fuels/2
+2024-11-15 20:10:05 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel) in 25.1374ms
+2024-11-15 20:10:05 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:10:05 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:10:05 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:10:05 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/fuels - 201 null application/json; charset=utf-8 38.9462ms
+2024-11-15 20:10:08 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels - null null
+2024-11-15 20:10:08 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:10:08 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:10:08 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:10:08 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:10:08 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:10:08 [INF] Route matched with {action = "GetInventory", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO]] GetInventory() on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:10:08 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:10:08 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:10:08 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:10:08 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:10:08 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:10:08 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:08 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:08 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:10:08 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:08 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:08 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:10:08 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:10:08 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:10:08 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:10:08 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:10:08 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:10:08 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ApiPostoCombustivel.Database.Models.TbFuel, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 20:10:08 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel) in 10.2409ms
+2024-11-15 20:10:08 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:10:08 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:10:08 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:10:08 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels - 200 null application/json; charset=utf-8 24.6132ms
+2024-11-15 20:10:13 [INF] Request starting HTTP/1.1 DELETE http://localhost:5134/api/fuels/2 - null null
+2024-11-15 20:10:13 [DBG] 1 candidate(s) found for the request path '/api/fuels/2'
+2024-11-15 20:10:13 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.DeleteFuel (ApiPostoCombustivel)' with route pattern 'api/fuels/{id:int}' is valid for the request path '/api/fuels/2'
+2024-11-15 20:10:13 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.DeleteFuel (ApiPostoCombustivel)'
+2024-11-15 20:10:13 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:10:13 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.DeleteFuel (ApiPostoCombustivel)'
+2024-11-15 20:10:13 [INF] Route matched with {action = "DeleteFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteFuel(Int32) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:10:13 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:10:13 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:10:13 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:10:13 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:10:13 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:10:13 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:13 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:13 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:10:13 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-11-15 20:10:13 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:10:13 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-11-15 20:10:13 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-11-15 20:10:13 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-11-15 20:10:13 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:10:13 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:13 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:13 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-11-15 20:10:13 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-11-15 20:10:13 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-11-15 20:10:13 [INF] Saved 1 entities to in-memory store.
+2024-11-15 20:10:13 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:13 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-11-15 20:10:13 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-11-15 20:10:13 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.DeleteFuel (ApiPostoCombustivel) in 21.9676ms
+2024-11-15 20:10:13 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.DeleteFuel (ApiPostoCombustivel)'
+2024-11-15 20:10:13 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:10:13 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:10:13 [INF] Request finished HTTP/1.1 DELETE http://localhost:5134/api/fuels/2 - 204 null null 37.3926ms
+2024-11-15 20:10:16 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels - null null
+2024-11-15 20:10:16 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:10:16 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:10:16 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:10:16 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:10:16 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:10:16 [INF] Route matched with {action = "GetInventory", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO]] GetInventory() on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:10:16 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:10:16 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:10:16 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:10:16 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:10:16 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:10:16 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:16 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:16 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:10:16 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:16 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:10:16 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:10:16 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:10:16 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:10:16 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:10:16 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:10:16 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ApiPostoCombustivel.Database.Models.TbFuel, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 20:10:16 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel) in 9.0856ms
+2024-11-15 20:10:16 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:10:16 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:10:16 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:10:16 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels - 200 null application/json; charset=utf-8 22.3592ms
+2024-11-15 20:10:25 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comum - null null
+2024-11-15 20:10:25 [DBG] 1 candidate(s) found for the request path '/api/fuels/tipo/Gasolina Comum'
+2024-11-15 20:10:25 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)' with route pattern 'api/fuels/tipo/{type}' is valid for the request path '/api/fuels/tipo/Gasolina Comum'
+2024-11-15 20:10:25 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:25 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:10:25 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:25 [INF] Route matched with {action = "GetFuelByType", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelByType(System.String) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:10:25 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:10:25 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:10:25 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:10:25 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:10:25 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:10:25 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:25 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:25 [DBG] Attempting to bind parameter 'type' of type 'System.String' ...
+2024-11-15 20:10:25 [DBG] Attempting to bind parameter 'type' of type 'System.String' using the name 'type' in request data ...
+2024-11-15 20:10:25 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:10:25 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:10:25 [DBG] Attempting to validate the bound parameter 'type' of type 'System.String' ...
+2024-11-15 20:10:25 [DBG] Done attempting to validate the bound parameter 'type' of type 'System.String'.
+2024-11-15 20:10:25 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:10:25 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:10:25 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:10:25 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-15 20:10:25 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-11-15 20:10:25 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel) in 10.2207ms
+2024-11-15 20:10:25 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:25 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:10:25 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:10:25 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comum - 204 null null 24.3419ms
+2024-11-15 20:10:31 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comum - null null
+2024-11-15 20:10:31 [DBG] 1 candidate(s) found for the request path '/api/fuels/tipo/Gasolina Comum'
+2024-11-15 20:10:31 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)' with route pattern 'api/fuels/tipo/{type}' is valid for the request path '/api/fuels/tipo/Gasolina Comum'
+2024-11-15 20:10:31 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:31 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:10:31 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:31 [INF] Route matched with {action = "GetFuelByType", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelByType(System.String) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:10:31 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:10:31 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:10:31 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:10:31 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:10:31 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:10:31 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:31 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:31 [DBG] Attempting to bind parameter 'type' of type 'System.String' ...
+2024-11-15 20:10:31 [DBG] Attempting to bind parameter 'type' of type 'System.String' using the name 'type' in request data ...
+2024-11-15 20:10:31 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:10:31 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:10:31 [DBG] Attempting to validate the bound parameter 'type' of type 'System.String' ...
+2024-11-15 20:10:31 [DBG] Done attempting to validate the bound parameter 'type' of type 'System.String'.
+2024-11-15 20:10:31 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:10:31 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:10:31 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:10:31 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-15 20:10:31 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-11-15 20:10:31 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel) in 10.0798ms
+2024-11-15 20:10:31 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:31 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:10:31 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:10:31 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comum - 204 null null 23.6669ms
+2024-11-15 20:10:34 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels - null null
+2024-11-15 20:10:34 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:10:34 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:10:34 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:10:34 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:10:34 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:10:34 [INF] Route matched with {action = "GetInventory", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO]] GetInventory() on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:10:34 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:10:34 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:10:34 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:10:34 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:10:34 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:10:34 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:34 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:34 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:10:34 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:34 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:10:34 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:10:34 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:10:34 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:10:34 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:10:34 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:10:34 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ApiPostoCombustivel.Database.Models.TbFuel, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO, ApiPostoCombustivel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 20:10:34 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel) in 9.149ms
+2024-11-15 20:10:34 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetInventory (ApiPostoCombustivel)'
+2024-11-15 20:10:34 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:10:34 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:10:34 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels - 200 null application/json; charset=utf-8 24.2206ms
+2024-11-15 20:10:42 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Aditivada - null null
+2024-11-15 20:10:42 [DBG] 1 candidate(s) found for the request path '/api/fuels/tipo/Gasolina Aditivada'
+2024-11-15 20:10:42 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)' with route pattern 'api/fuels/tipo/{type}' is valid for the request path '/api/fuels/tipo/Gasolina Aditivada'
+2024-11-15 20:10:42 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:42 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:10:42 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:42 [INF] Route matched with {action = "GetFuelByType", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelByType(System.String) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:10:42 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:10:42 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:10:42 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:10:42 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:10:42 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:10:42 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:42 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:42 [DBG] Attempting to bind parameter 'type' of type 'System.String' ...
+2024-11-15 20:10:42 [DBG] Attempting to bind parameter 'type' of type 'System.String' using the name 'type' in request data ...
+2024-11-15 20:10:42 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:10:42 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:10:42 [DBG] Attempting to validate the bound parameter 'type' of type 'System.String' ...
+2024-11-15 20:10:42 [DBG] Done attempting to validate the bound parameter 'type' of type 'System.String'.
+2024-11-15 20:10:42 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:10:42 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:10:42 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:10:42 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:10:42 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:10:42 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:10:42 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:10:42 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:10:42 [INF] Executing OkObjectResult, writing value of type 'ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO'.
+2024-11-15 20:10:42 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel) in 12.9023ms
+2024-11-15 20:10:42 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:42 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:10:42 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:10:42 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Aditivada - 200 null application/json; charset=utf-8 28.5261ms
+2024-11-15 20:10:47 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comum - null null
+2024-11-15 20:10:47 [DBG] 1 candidate(s) found for the request path '/api/fuels/tipo/Gasolina Comum'
+2024-11-15 20:10:47 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)' with route pattern 'api/fuels/tipo/{type}' is valid for the request path '/api/fuels/tipo/Gasolina Comum'
+2024-11-15 20:10:47 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:47 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:10:47 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:47 [INF] Route matched with {action = "GetFuelByType", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelByType(System.String) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:10:47 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:10:47 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:10:47 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:10:47 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:10:47 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:10:47 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:47 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:10:47 [DBG] Attempting to bind parameter 'type' of type 'System.String' ...
+2024-11-15 20:10:47 [DBG] Attempting to bind parameter 'type' of type 'System.String' using the name 'type' in request data ...
+2024-11-15 20:10:47 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:10:47 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:10:47 [DBG] Attempting to validate the bound parameter 'type' of type 'System.String' ...
+2024-11-15 20:10:47 [DBG] Done attempting to validate the bound parameter 'type' of type 'System.String'.
+2024-11-15 20:10:47 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:10:47 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:10:47 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:10:47 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-15 20:10:47 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-11-15 20:10:47 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel) in 10.5176ms
+2024-11-15 20:10:47 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:10:47 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:10:47 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:10:47 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comum - 204 null null 23.6335ms
+2024-11-15 20:11:15 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comum - null null
+2024-11-15 20:11:15 [DBG] 1 candidate(s) found for the request path '/api/fuels/tipo/Gasolina Comum'
+2024-11-15 20:11:15 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)' with route pattern 'api/fuels/tipo/{type}' is valid for the request path '/api/fuels/tipo/Gasolina Comum'
+2024-11-15 20:11:15 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:11:15 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:11:15 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:11:15 [INF] Route matched with {action = "GetFuelByType", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelByType(System.String) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:11:15 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:11:15 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:11:15 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:11:15 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:11:15 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:11:15 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:11:15 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:11:15 [DBG] Attempting to bind parameter 'type' of type 'System.String' ...
+2024-11-15 20:11:15 [DBG] Attempting to bind parameter 'type' of type 'System.String' using the name 'type' in request data ...
+2024-11-15 20:11:15 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:11:15 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:11:15 [DBG] Attempting to validate the bound parameter 'type' of type 'System.String' ...
+2024-11-15 20:11:15 [DBG] Done attempting to validate the bound parameter 'type' of type 'System.String'.
+2024-11-15 20:11:15 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:11:15 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:11:15 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:11:15 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-15 20:11:15 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-11-15 20:11:15 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel) in 12.596ms
+2024-11-15 20:11:15 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:11:15 [DBG] Connection id "0HN85P68BVUP6" completed keep alive response.
+2024-11-15 20:11:15 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:11:15 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comum - 204 null null 29.2139ms
+2024-11-15 20:12:47 [INF] Inicializando aplicação...
+2024-11-15 20:12:47 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-15 20:12:47 [INF] Aplicação iniciada com sucesso.
+2024-11-15 20:12:47 [DBG] Hosting starting
+2024-11-15 20:12:47 [INF] Now listening on: http://localhost:5134
+2024-11-15 20:12:47 [DBG] Loaded hosting startup assembly ApiPostoCombustivel
+2024-11-15 20:12:47 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-15 20:12:47 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-15 20:12:47 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-15 20:12:47 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 20:12:47 [INF] Hosting environment: Development
+2024-11-15 20:12:47 [INF] Content root path: D:\Documentos\Programação\Trabalho final - Juliano\api-posto-combustivel\ApiPostoCombustivel
+2024-11-15 20:12:47 [DBG] Hosting started
+2024-11-15 20:12:47 [DBG] Connection id "0HN85PC2I48ER" received FIN.
+2024-11-15 20:12:47 [DBG] Connection id "0HN85PC2I48ER" accepted.
+2024-11-15 20:12:47 [DBG] Connection id "0HN85PC2I48ER" started.
+2024-11-15 20:12:47 [DBG] Connection id "0HN85PC2I48ER" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 20:12:47 [DBG] Connection id "0HN85PC2I48ER" disconnecting.
+2024-11-15 20:12:47 [DBG] Connection id "0HN85PC2I48ER" stopped.
+2024-11-15 20:12:48 [DBG] Connection id "0HN85PC2I48ES" accepted.
+2024-11-15 20:12:48 [DBG] Connection id "0HN85PC2I48ES" started.
+2024-11-15 20:12:48 [DBG] Connection id "0HN85PC2I48ET" accepted.
+2024-11-15 20:12:48 [DBG] Connection id "0HN85PC2I48ET" started.
+2024-11-15 20:12:48 [INF] Request starting HTTP/1.1 GET http://localhost:5134/swagger/index.html - null null
+2024-11-15 20:12:48 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-15 20:12:48 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-15 20:12:48 [DBG] Request did not match any endpoints
+2024-11-15 20:12:48 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-15 20:12:48 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-15 20:12:48 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-15 20:12:48 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-15 20:12:48 [DBG] Connection id "0HN85PC2I48ES" completed keep alive response.
+2024-11-15 20:12:48 [INF] Request finished HTTP/1.1 GET http://localhost:5134/swagger/index.html - 200 null text/html;charset=utf-8 131.3265ms
+2024-11-15 20:12:48 [INF] Request starting HTTP/1.1 GET http://localhost:5134/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 20:12:48 [DBG] Connection id "0HN85PC2I48ES" completed keep alive response.
+2024-11-15 20:12:48 [INF] Request finished HTTP/1.1 GET http://localhost:5134/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 4.7671ms
+2024-11-15 20:12:48 [INF] Request starting HTTP/1.1 GET http://localhost:5134/_vs/browserLink - null null
+2024-11-15 20:12:48 [DBG] Connection id "0HN85PC2I48ET" completed keep alive response.
+2024-11-15 20:12:48 [INF] Request finished HTTP/1.1 GET http://localhost:5134/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.9951ms
+2024-11-15 20:12:48 [INF] Request starting HTTP/1.1 GET http://localhost:5134/swagger/v1/swagger.json - null null
+2024-11-15 20:12:48 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-15 20:12:48 [DBG] Request did not match any endpoints
+2024-11-15 20:12:48 [DBG] Connection id "0HN85PC2I48ET" completed keep alive response.
+2024-11-15 20:12:48 [INF] Request finished HTTP/1.1 GET http://localhost:5134/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.2282ms
+2024-11-15 20:12:58 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/fuels - application/json 47
+2024-11-15 20:12:58 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:12:58 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:12:58 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:12:58 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:12:58 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:12:58 [INF] Route matched with {action = "AddFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddFuel(ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:12:58 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:12:58 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:12:58 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:12:58 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:12:58 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:12:58 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:12:58 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-15 20:12:58 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:12:58 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:12:58 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' using the name '' in request data ...
+2024-11-15 20:12:58 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 20:12:58 [DBG] Connection id "0HN85PC2I48ET", Request id "0HN85PC2I48ET:00000003": started reading request body.
+2024-11-15 20:12:58 [DBG] Connection id "0HN85PC2I48ET", Request id "0HN85PC2I48ET:00000003": done reading request body.
+2024-11-15 20:12:58 [DBG] JSON input formatter succeeded, deserializing to type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'
+2024-11-15 20:12:58 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:12:58 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:12:58 [DBG] Attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:12:58 [DBG] Done attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:12:58 [INF] Iniciando o processo de Adicionar Combustível.
+2024-11-15 20:12:58 [INF] Tentando adicionar um novo tipo de combustível: Gasolina Comum com estoque: 1500.
+2024-11-15 20:12:59 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:12:59 [DBG] Compiling query expression: 
+'DbSet<TbFuel>()
+    .FirstOrDefault(c => c.Type == __type_0)'
+2024-11-15 20:12:59 [DBG] Generated query execution expression: 
+'queryContext => new QueryingEnumerable<TbFuel>(
+    queryContext, 
+    new ResultEnumerable(() => InMemoryShapedQueryCompilingExpressionVisitor.Table(
+        queryContext: queryContext, 
+        entityType: EntityType: TbFuel)
+        .Where(valueBuffer => DefaultValueComparer<string>.Equals(
+            left: ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)), 
+            right: InMemoryExpressionTranslatingExpressionVisitor.GetParameterValue<string>(
+                queryContext: queryContext, 
+                parameterName: "__type_0")))
+        .Select(valueBuffer => new ValueBuffer(new object[]
+        { 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<int>(
+                valueBuffer: valueBuffer, 
+                index: 0, 
+                property: Property: TbFuel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<double>(
+                valueBuffer: valueBuffer, 
+                index: 1, 
+                property: Property: TbFuel.Stock (double) Required), 
+            ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)) 
+        }))
+        .FirstOrDefault()), 
+    Func<QueryContext, ValueBuffer, TbFuel>, 
+    ApiPostoCombustivel.Database.AppDbContext, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-11-15 20:12:59 [DBG] 'AppDbContext' generated a value for the property 'TbFuel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:12:59 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:12:59 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-11-15 20:12:59 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-11-15 20:12:59 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-11-15 20:12:59 [INF] Saved 1 entities to in-memory store.
+2024-11-15 20:12:59 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:12:59 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-11-15 20:12:59 [INF] Tipo de combustível adicionado com sucesso: Gasolina Comum com ID: 1.
+2024-11-15 20:12:59 [INF] Processo de Adicionar Combustível finalizado.
+2024-11-15 20:12:59 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:12:59 [DBG] No information found on request to perform content negotiation.
+2024-11-15 20:12:59 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:12:59 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:12:59 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:12:59 [INF] Executing CreatedAtActionResult, writing value of type 'ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO'.
+2024-11-15 20:12:59 [DBG] Found the endpoints ["ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)"] for address (id=[1],action=[GetFuelById],controller=[Fuel])
+2024-11-15 20:12:59 [DBG] Successfully processed template api/fuels/{id:int} for ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel) resulting in /api/fuels/1 and 
+2024-11-15 20:12:59 [DBG] Link generation succeeded for endpoints ["ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)"] with result /api/fuels/1
+2024-11-15 20:12:59 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel) in 477.1121ms
+2024-11-15 20:12:59 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:12:59 [DBG] Connection id "0HN85PC2I48ET" completed keep alive response.
+2024-11-15 20:12:59 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:12:59 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/fuels - 201 null application/json; charset=utf-8 518.5399ms
+2024-11-15 20:13:17 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Aditivada - null null
+2024-11-15 20:13:17 [DBG] 1 candidate(s) found for the request path '/api/fuels/tipo/Gasolina Aditivada'
+2024-11-15 20:13:17 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)' with route pattern 'api/fuels/tipo/{type}' is valid for the request path '/api/fuels/tipo/Gasolina Aditivada'
+2024-11-15 20:13:17 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:13:17 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:13:17 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:13:17 [INF] Route matched with {action = "GetFuelByType", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelByType(System.String) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:13:17 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:13:17 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:13:17 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:13:17 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:13:17 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:13:17 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:13:17 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:13:17 [DBG] Attempting to bind parameter 'type' of type 'System.String' ...
+2024-11-15 20:13:17 [DBG] Attempting to bind parameter 'type' of type 'System.String' using the name 'type' in request data ...
+2024-11-15 20:13:17 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:13:17 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:13:17 [DBG] Attempting to validate the bound parameter 'type' of type 'System.String' ...
+2024-11-15 20:13:17 [DBG] Done attempting to validate the bound parameter 'type' of type 'System.String'.
+2024-11-15 20:13:46 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:18:41 [INF] Inicializando aplicação...
+2024-11-15 20:18:42 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-15 20:18:42 [INF] Aplicação iniciada com sucesso.
+2024-11-15 20:18:42 [DBG] Hosting starting
+2024-11-15 20:18:42 [INF] Now listening on: http://localhost:5134
+2024-11-15 20:18:42 [DBG] Loaded hosting startup assembly ApiPostoCombustivel
+2024-11-15 20:18:42 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-15 20:18:42 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-15 20:18:42 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-15 20:18:42 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 20:18:42 [INF] Hosting environment: Development
+2024-11-15 20:18:42 [INF] Content root path: D:\Documentos\Programação\Trabalho final - Juliano\api-posto-combustivel\ApiPostoCombustivel
+2024-11-15 20:18:42 [DBG] Hosting started
+2024-11-15 20:18:42 [DBG] Connection id "0HN85PFC9JC74" received FIN.
+2024-11-15 20:18:42 [DBG] Connection id "0HN85PFC9JC74" accepted.
+2024-11-15 20:18:42 [DBG] Connection id "0HN85PFC9JC74" started.
+2024-11-15 20:18:42 [DBG] Connection id "0HN85PFC9JC74" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 20:18:42 [DBG] Connection id "0HN85PFC9JC74" disconnecting.
+2024-11-15 20:18:42 [DBG] Connection id "0HN85PFC9JC74" stopped.
+2024-11-15 20:18:42 [DBG] Connection id "0HN85PFC9JC75" accepted.
+2024-11-15 20:18:42 [DBG] Connection id "0HN85PFC9JC75" started.
+2024-11-15 20:18:42 [DBG] Connection id "0HN85PFC9JC76" accepted.
+2024-11-15 20:18:42 [DBG] Connection id "0HN85PFC9JC76" started.
+2024-11-15 20:18:42 [INF] Request starting HTTP/1.1 GET http://localhost:5134/swagger/index.html - null null
+2024-11-15 20:18:42 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-15 20:18:43 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-15 20:18:43 [DBG] Request did not match any endpoints
+2024-11-15 20:18:43 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-15 20:18:43 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-15 20:18:43 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-15 20:18:43 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-15 20:18:43 [DBG] Connection id "0HN85PFC9JC75" completed keep alive response.
+2024-11-15 20:18:43 [INF] Request finished HTTP/1.1 GET http://localhost:5134/swagger/index.html - 200 null text/html;charset=utf-8 134.9869ms
+2024-11-15 20:18:43 [INF] Request starting HTTP/1.1 GET http://localhost:5134/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 20:18:43 [DBG] Connection id "0HN85PFC9JC75" completed keep alive response.
+2024-11-15 20:18:43 [INF] Request finished HTTP/1.1 GET http://localhost:5134/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 6.505ms
+2024-11-15 20:18:43 [INF] Request starting HTTP/1.1 GET http://localhost:5134/_vs/browserLink - null null
+2024-11-15 20:18:43 [DBG] Connection id "0HN85PFC9JC76" completed keep alive response.
+2024-11-15 20:18:43 [INF] Request finished HTTP/1.1 GET http://localhost:5134/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.1673ms
+2024-11-15 20:18:43 [INF] Request starting HTTP/1.1 GET http://localhost:5134/swagger/v1/swagger.json - null null
+2024-11-15 20:18:43 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-15 20:18:43 [DBG] Request did not match any endpoints
+2024-11-15 20:18:43 [DBG] Connection id "0HN85PFC9JC76" completed keep alive response.
+2024-11-15 20:18:43 [INF] Request finished HTTP/1.1 GET http://localhost:5134/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.3542ms
+2024-11-15 20:18:53 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/fuels - application/json 47
+2024-11-15 20:18:53 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:18:53 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:18:53 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:18:53 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:18:53 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:18:53 [INF] Route matched with {action = "AddFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddFuel(ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:18:53 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:18:53 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:18:53 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:18:53 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:18:53 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:18:53 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:18:53 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-15 20:18:53 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:18:53 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:18:54 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' using the name '' in request data ...
+2024-11-15 20:18:54 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 20:18:54 [DBG] Connection id "0HN85PFC9JC76", Request id "0HN85PFC9JC76:00000003": started reading request body.
+2024-11-15 20:18:54 [DBG] Connection id "0HN85PFC9JC76", Request id "0HN85PFC9JC76:00000003": done reading request body.
+2024-11-15 20:18:54 [DBG] JSON input formatter succeeded, deserializing to type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'
+2024-11-15 20:18:54 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:18:54 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:18:54 [DBG] Attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:18:54 [DBG] Done attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:18:54 [INF] Iniciando o processo de Adicionar Combustível.
+2024-11-15 20:18:54 [INF] Tentando adicionar um novo tipo de combustível: Gasolina Comum com estoque: 1500.
+2024-11-15 20:19:06 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:19:06 [DBG] Compiling query expression: 
+'DbSet<TbFuel>()
+    .FirstOrDefault(c => c.Type == __type_0)'
+2024-11-15 20:19:06 [DBG] Generated query execution expression: 
+'queryContext => new QueryingEnumerable<TbFuel>(
+    queryContext, 
+    new ResultEnumerable(() => InMemoryShapedQueryCompilingExpressionVisitor.Table(
+        queryContext: queryContext, 
+        entityType: EntityType: TbFuel)
+        .Where(valueBuffer => DefaultValueComparer<string>.Equals(
+            left: ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)), 
+            right: InMemoryExpressionTranslatingExpressionVisitor.GetParameterValue<string>(
+                queryContext: queryContext, 
+                parameterName: "__type_0")))
+        .Select(valueBuffer => new ValueBuffer(new object[]
+        { 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<int>(
+                valueBuffer: valueBuffer, 
+                index: 0, 
+                property: Property: TbFuel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<double>(
+                valueBuffer: valueBuffer, 
+                index: 1, 
+                property: Property: TbFuel.Stock (double) Required), 
+            ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)) 
+        }))
+        .FirstOrDefault()), 
+    Func<QueryContext, ValueBuffer, TbFuel>, 
+    ApiPostoCombustivel.Database.AppDbContext, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-11-15 20:19:06 [DBG] 'AppDbContext' generated a value for the property 'TbFuel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:19:06 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:19:06 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-11-15 20:19:06 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-11-15 20:19:06 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-11-15 20:19:06 [INF] Saved 1 entities to in-memory store.
+2024-11-15 20:19:06 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:19:06 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-11-15 20:19:07 [INF] Tipo de combustível adicionado com sucesso: Gasolina Comum com ID: 1.
+2024-11-15 20:19:07 [INF] Processo de Adicionar Combustível finalizado.
+2024-11-15 20:19:07 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:19:07 [DBG] No information found on request to perform content negotiation.
+2024-11-15 20:19:07 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:19:07 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:19:07 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:19:07 [INF] Executing CreatedAtActionResult, writing value of type 'ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO'.
+2024-11-15 20:19:07 [DBG] Found the endpoints ["ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)"] for address (id=[1],action=[GetFuelById],controller=[Fuel])
+2024-11-15 20:19:07 [DBG] Successfully processed template api/fuels/{id:int} for ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel) resulting in /api/fuels/1 and 
+2024-11-15 20:19:07 [DBG] Link generation succeeded for endpoints ["ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)"] with result /api/fuels/1
+2024-11-15 20:19:07 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel) in 13875.038ms
+2024-11-15 20:19:07 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:19:07 [DBG] Connection id "0HN85PFC9JC76" completed keep alive response.
+2024-11-15 20:19:07 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:19:07 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/fuels - 201 null application/json; charset=utf-8 13917.7945ms
+2024-11-15 20:19:19 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Aditivada - null null
+2024-11-15 20:19:19 [DBG] 1 candidate(s) found for the request path '/api/fuels/tipo/Gasolina Aditivada'
+2024-11-15 20:19:19 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)' with route pattern 'api/fuels/tipo/{type}' is valid for the request path '/api/fuels/tipo/Gasolina Aditivada'
+2024-11-15 20:19:19 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:19:19 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:19:19 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:19:19 [INF] Route matched with {action = "GetFuelByType", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelByType(System.String) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:19:19 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:19:19 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:19:19 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:19:19 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:19:19 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:19:19 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:19:19 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:19:19 [DBG] Attempting to bind parameter 'type' of type 'System.String' ...
+2024-11-15 20:19:19 [DBG] Attempting to bind parameter 'type' of type 'System.String' using the name 'type' in request data ...
+2024-11-15 20:19:19 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:19:19 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:19:19 [DBG] Attempting to validate the bound parameter 'type' of type 'System.String' ...
+2024-11-15 20:19:19 [DBG] Done attempting to validate the bound parameter 'type' of type 'System.String'.
+2024-11-15 20:19:28 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:20:16 [INF] Inicializando aplicação...
+2024-11-15 20:20:17 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-15 20:20:17 [INF] Aplicação iniciada com sucesso.
+2024-11-15 20:20:17 [DBG] Hosting starting
+2024-11-15 20:20:17 [INF] Now listening on: http://localhost:5134
+2024-11-15 20:20:17 [DBG] Loaded hosting startup assembly ApiPostoCombustivel
+2024-11-15 20:20:17 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-15 20:20:17 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-15 20:20:17 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-15 20:20:17 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 20:20:17 [INF] Hosting environment: Development
+2024-11-15 20:20:17 [INF] Content root path: D:\Documentos\Programação\Trabalho final - Juliano\api-posto-combustivel\ApiPostoCombustivel
+2024-11-15 20:20:17 [DBG] Hosting started
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8O" accepted.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8O" started.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8P" accepted.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8P" started.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8P" received FIN.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8O" received FIN.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8O" disconnecting.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8P" disconnecting.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8O" stopped.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8P" stopped.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8Q" accepted.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8Q" started.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8R" accepted.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8R" started.
+2024-11-15 20:20:17 [INF] Request starting HTTP/1.1 GET http://localhost:5134/swagger/index.html - null null
+2024-11-15 20:20:17 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-15 20:20:17 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-15 20:20:17 [DBG] Request did not match any endpoints
+2024-11-15 20:20:17 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-15 20:20:17 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-15 20:20:17 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-15 20:20:17 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8Q" completed keep alive response.
+2024-11-15 20:20:17 [INF] Request finished HTTP/1.1 GET http://localhost:5134/swagger/index.html - 200 null text/html;charset=utf-8 131.6548ms
+2024-11-15 20:20:17 [INF] Request starting HTTP/1.1 GET http://localhost:5134/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8Q" completed keep alive response.
+2024-11-15 20:20:17 [INF] Request finished HTTP/1.1 GET http://localhost:5134/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 4.3836ms
+2024-11-15 20:20:17 [INF] Request starting HTTP/1.1 GET http://localhost:5134/_vs/browserLink - null null
+2024-11-15 20:20:17 [DBG] Connection id "0HN85PG8IMF8R" completed keep alive response.
+2024-11-15 20:20:17 [INF] Request finished HTTP/1.1 GET http://localhost:5134/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.2077ms
+2024-11-15 20:20:18 [INF] Request starting HTTP/1.1 GET http://localhost:5134/swagger/v1/swagger.json - null null
+2024-11-15 20:20:18 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-15 20:20:18 [DBG] Request did not match any endpoints
+2024-11-15 20:20:18 [DBG] Connection id "0HN85PG8IMF8R" completed keep alive response.
+2024-11-15 20:20:18 [INF] Request finished HTTP/1.1 GET http://localhost:5134/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.5467ms
+2024-11-15 20:21:21 [INF] Request starting HTTP/1.1 POST http://localhost:5134/api/fuels - application/json 47
+2024-11-15 20:21:21 [DBG] 1 candidate(s) found for the request path '/api/fuels'
+2024-11-15 20:21:21 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)' with route pattern 'api/fuels' is valid for the request path '/api/fuels'
+2024-11-15 20:21:21 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:21:21 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:21:21 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:21:21 [INF] Route matched with {action = "AddFuel", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddFuel(ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:21:21 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:21:21 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:21:21 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:21:21 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:21:21 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:21:21 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:21:21 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-11-15 20:21:21 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:21:21 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:21:21 [DBG] Attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' using the name '' in request data ...
+2024-11-15 20:21:21 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-15 20:21:21 [DBG] Connection id "0HN85PG8IMF8R", Request id "0HN85PG8IMF8R:00000003": started reading request body.
+2024-11-15 20:21:21 [DBG] Connection id "0HN85PG8IMF8R", Request id "0HN85PG8IMF8R:00000003": done reading request body.
+2024-11-15 20:21:21 [DBG] JSON input formatter succeeded, deserializing to type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'
+2024-11-15 20:21:21 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:21:21 [DBG] Done attempting to bind parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:21:21 [DBG] Attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO' ...
+2024-11-15 20:21:21 [DBG] Done attempting to validate the bound parameter 'createDto' of type 'ApiPostoCombustivel.DTO.CombustivelDTO.CreateFuelDTO'.
+2024-11-15 20:21:21 [INF] Iniciando o processo de Adicionar Combustível.
+2024-11-15 20:21:21 [INF] Tentando adicionar um novo tipo de combustível: Gasolina Comum com estoque: 1500.
+2024-11-15 20:21:21 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:21:21 [DBG] Compiling query expression: 
+'DbSet<TbFuel>()
+    .FirstOrDefault(c => c.Type == __type_0)'
+2024-11-15 20:21:21 [DBG] Generated query execution expression: 
+'queryContext => new QueryingEnumerable<TbFuel>(
+    queryContext, 
+    new ResultEnumerable(() => InMemoryShapedQueryCompilingExpressionVisitor.Table(
+        queryContext: queryContext, 
+        entityType: EntityType: TbFuel)
+        .Where(valueBuffer => DefaultValueComparer<string>.Equals(
+            left: ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)), 
+            right: InMemoryExpressionTranslatingExpressionVisitor.GetParameterValue<string>(
+                queryContext: queryContext, 
+                parameterName: "__type_0")))
+        .Select(valueBuffer => new ValueBuffer(new object[]
+        { 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<int>(
+                valueBuffer: valueBuffer, 
+                index: 0, 
+                property: Property: TbFuel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            (object)ExpressionExtensions.ValueBufferTryReadValue<double>(
+                valueBuffer: valueBuffer, 
+                index: 1, 
+                property: Property: TbFuel.Stock (double) Required), 
+            ExpressionExtensions.ValueBufferTryReadValue<string>(
+                valueBuffer: valueBuffer, 
+                index: 2, 
+                property: Property: TbFuel.Type (string)) 
+        }))
+        .FirstOrDefault()), 
+    Func<QueryContext, ValueBuffer, TbFuel>, 
+    ApiPostoCombustivel.Database.AppDbContext, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-11-15 20:21:21 [DBG] 'AppDbContext' generated a value for the property 'TbFuel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:21:21 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:21:21 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-11-15 20:21:21 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-11-15 20:21:21 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-11-15 20:21:21 [INF] Saved 1 entities to in-memory store.
+2024-11-15 20:21:21 [DBG] An entity of type 'TbFuel' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:21:21 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-11-15 20:21:21 [INF] Tipo de combustível adicionado com sucesso: Gasolina Comum com ID: 1.
+2024-11-15 20:21:21 [INF] Processo de Adicionar Combustível finalizado.
+2024-11-15 20:21:21 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:21:21 [DBG] No information found on request to perform content negotiation.
+2024-11-15 20:21:21 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:21:21 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:21:21 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:21:21 [INF] Executing CreatedAtActionResult, writing value of type 'ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO'.
+2024-11-15 20:21:21 [DBG] Found the endpoints ["ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)"] for address (id=[1],action=[GetFuelById],controller=[Fuel])
+2024-11-15 20:21:21 [DBG] Successfully processed template api/fuels/{id:int} for ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel) resulting in /api/fuels/1 and 
+2024-11-15 20:21:21 [DBG] Link generation succeeded for endpoints ["ApiPostoCombustivel.Controllers.FuelController.GetFuelById (ApiPostoCombustivel)"] with result /api/fuels/1
+2024-11-15 20:21:21 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel) in 469.8387ms
+2024-11-15 20:21:21 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.AddFuel (ApiPostoCombustivel)'
+2024-11-15 20:21:21 [DBG] Connection id "0HN85PG8IMF8R" completed keep alive response.
+2024-11-15 20:21:21 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:21:21 [INF] Request finished HTTP/1.1 POST http://localhost:5134/api/fuels - 201 null application/json; charset=utf-8 511.1252ms
+2024-11-15 20:21:29 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comum - null null
+2024-11-15 20:21:29 [DBG] 1 candidate(s) found for the request path '/api/fuels/tipo/Gasolina Comum'
+2024-11-15 20:21:29 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)' with route pattern 'api/fuels/tipo/{type}' is valid for the request path '/api/fuels/tipo/Gasolina Comum'
+2024-11-15 20:21:29 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:21:29 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:21:29 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:21:29 [INF] Route matched with {action = "GetFuelByType", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelByType(System.String) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:21:29 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:21:29 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:21:29 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:21:29 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:21:29 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:21:29 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:21:29 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:21:29 [DBG] Attempting to bind parameter 'type' of type 'System.String' ...
+2024-11-15 20:21:29 [DBG] Attempting to bind parameter 'type' of type 'System.String' using the name 'type' in request data ...
+2024-11-15 20:21:29 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:21:29 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:21:29 [DBG] Attempting to validate the bound parameter 'type' of type 'System.String' ...
+2024-11-15 20:21:29 [DBG] Done attempting to validate the bound parameter 'type' of type 'System.String'.
+2024-11-15 20:21:29 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:21:29 [DBG] Context 'AppDbContext' started tracking 'TbFuel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-11-15 20:21:29 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:21:29 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:21:29 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-11-15 20:21:29 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-15 20:21:29 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-15 20:21:29 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-11-15 20:21:29 [INF] Executing OkObjectResult, writing value of type 'ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO'.
+2024-11-15 20:21:29 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel) in 28.8865ms
+2024-11-15 20:21:29 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:21:29 [DBG] Connection id "0HN85PG8IMF8R" completed keep alive response.
+2024-11-15 20:21:29 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:21:29 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comum - 200 null application/json; charset=utf-8 46.0466ms
+2024-11-15 20:21:33 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comu - null null
+2024-11-15 20:21:33 [DBG] 1 candidate(s) found for the request path '/api/fuels/tipo/Gasolina Comu'
+2024-11-15 20:21:33 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)' with route pattern 'api/fuels/tipo/{type}' is valid for the request path '/api/fuels/tipo/Gasolina Comu'
+2024-11-15 20:21:33 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:21:33 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:21:33 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:21:33 [INF] Route matched with {action = "GetFuelByType", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelByType(System.String) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:21:33 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:21:33 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:21:33 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:21:33 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:21:33 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:21:33 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:21:33 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:21:33 [DBG] Attempting to bind parameter 'type' of type 'System.String' ...
+2024-11-15 20:21:33 [DBG] Attempting to bind parameter 'type' of type 'System.String' using the name 'type' in request data ...
+2024-11-15 20:21:33 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:21:33 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:21:33 [DBG] Attempting to validate the bound parameter 'type' of type 'System.String' ...
+2024-11-15 20:21:33 [DBG] Done attempting to validate the bound parameter 'type' of type 'System.String'.
+2024-11-15 20:21:33 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:21:33 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:21:33 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-15 20:21:33 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-11-15 20:21:33 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel) in 43.2817ms
+2024-11-15 20:21:33 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:21:33 [DBG] Connection id "0HN85PG8IMF8R" completed keep alive response.
+2024-11-15 20:21:33 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Comu - 400 null text/plain; charset=utf-8 55.5389ms
+2024-11-15 20:21:38 [INF] Request starting HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Aditivada - null null
+2024-11-15 20:21:38 [DBG] 1 candidate(s) found for the request path '/api/fuels/tipo/Gasolina Aditivada'
+2024-11-15 20:21:38 [DBG] Endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)' with route pattern 'api/fuels/tipo/{type}' is valid for the request path '/api/fuels/tipo/Gasolina Aditivada'
+2024-11-15 20:21:38 [DBG] Request matched endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:21:38 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-15 20:21:38 [INF] Executing endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:21:38 [INF] Route matched with {action = "GetFuelByType", controller = "Fuel"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[ApiPostoCombustivel.DTO.CombustivelDTO.FuelDTO] GetFuelByType(System.String) on controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel).
+2024-11-15 20:21:38 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-15 20:21:38 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-15 20:21:38 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-15 20:21:38 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-15 20:21:38 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-15 20:21:38 [DBG] Executing controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:21:38 [DBG] Executed controller factory for controller ApiPostoCombustivel.Controllers.FuelController (ApiPostoCombustivel)
+2024-11-15 20:21:38 [DBG] Attempting to bind parameter 'type' of type 'System.String' ...
+2024-11-15 20:21:38 [DBG] Attempting to bind parameter 'type' of type 'System.String' using the name 'type' in request data ...
+2024-11-15 20:21:38 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:21:38 [DBG] Done attempting to bind parameter 'type' of type 'System.String'.
+2024-11-15 20:21:38 [DBG] Attempting to validate the bound parameter 'type' of type 'System.String' ...
+2024-11-15 20:21:38 [DBG] Done attempting to validate the bound parameter 'type' of type 'System.String'.
+2024-11-15 20:21:38 [DBG] Entity Framework Core 9.0.0-rc.2.24474.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:9.0.0-rc.2.24474.1' with options: StoreName=DBPosto 
+2024-11-15 20:21:38 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-15 20:21:38 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-11-15 20:21:38 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-15 20:21:38 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-11-15 20:21:38 [INF] Executed action ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel) in 44.7814ms
+2024-11-15 20:21:38 [INF] Executed endpoint 'ApiPostoCombustivel.Controllers.FuelController.GetFuelByType (ApiPostoCombustivel)'
+2024-11-15 20:21:38 [DBG] Connection id "0HN85PG8IMF8R" completed keep alive response.
+2024-11-15 20:21:38 [DBG] 'AppDbContext' disposed.
+2024-11-15 20:21:38 [INF] Request finished HTTP/1.1 GET http://localhost:5134/api/fuels/tipo/Gasolina Aditivada - 404 null text/plain; charset=utf-8 59.7323ms
