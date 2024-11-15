@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using ApiPostoCombustivel.Database;
 using ApiPostoCombustivel.DTO.CombustivelDTO;
 using ApiPostoCombustivel.Exceptions;
+using Serilog;
 
 namespace ApiPostoCombustivel.Controllers
 {
@@ -12,10 +13,12 @@ namespace ApiPostoCombustivel.Controllers
     public class FuelController : ControllerBase
     {
         private readonly FuelService _service;
+        private readonly ILogger<FuelController> _logger;
 
-        public FuelController(AppDbContext context)
+        public FuelController(AppDbContext context, ILogger<FuelController> logger)
         {
             _service = new FuelService(context);
+            _logger = logger;
         }
 
         [HttpGet]

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\controllers\\supplycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\controllers\\supplycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\controllers\\fuelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\controllers\\fuelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SupplyController.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\SupplyController.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Controllers\\SupplyController.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\SupplyController.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\SupplyController.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAAwK8AAAAAAAAAAAAAAA==",
+              "Title": "FuelController.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\FuelController.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Controllers\\FuelController.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\FuelController.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\FuelController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T22:04:46.007Z",
+              "WhenOpened": "2024-11-15T22:17:34.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Program.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Program.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Program.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T22:15:31.657Z",
               "EditorCaption": ""
             }
           ]
