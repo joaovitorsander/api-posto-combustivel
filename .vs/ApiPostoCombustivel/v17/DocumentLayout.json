@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\services\\abastecimentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\services\\abastecimentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\controllers\\abastecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\controllers\\abastecimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\database\\models\\tbabastecimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\database\\models\\tbabastecimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\validations\\precoexistenciavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\validations\\precoexistenciavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\parser\\abastecimentoparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\parser\\abastecimentoparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\dto\\abastecimentodto\\abastecimentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\dto\\abastecimentodto\\abastecimentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\database\\repositories\\abastecimentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\database\\repositories\\abastecimentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\database\\repositories\\interfaces\\iabastecimentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\database\\repositories\\interfaces\\iabastecimentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\controllers\\supplycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\controllers\\supplycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,100 +26,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PrecoExistenciaValidator.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Validations\\PrecoExistenciaValidator.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Validations\\PrecoExistenciaValidator.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Validations\\PrecoExistenciaValidator.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Validations\\PrecoExistenciaValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:52:26.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AbastecimentoParser.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Parser\\AbastecimentoParser.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Parser\\AbastecimentoParser.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Parser\\AbastecimentoParser.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Parser\\AbastecimentoParser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:33:55.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AbastecimentoDTO.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\DTO\\AbastecimentoDTO\\AbastecimentoDTO.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\DTO\\AbastecimentoDTO\\AbastecimentoDTO.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\DTO\\AbastecimentoDTO\\AbastecimentoDTO.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\DTO\\AbastecimentoDTO\\AbastecimentoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:33:46.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TbAbastecimento.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Models\\TbAbastecimento.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Database\\Models\\TbAbastecimento.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Models\\TbAbastecimento.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Database\\Models\\TbAbastecimento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:33:24.415Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AbastecimentoService.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Services\\AbastecimentoService.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAcwJEAAAA8AAAAAAAAAA==",
+              "Title": "SupplyController.cs",
+              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\SupplyController.cs",
+              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Controllers\\SupplyController.cs",
+              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\SupplyController.cs",
+              "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\SupplyController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAwK8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:31:05.709Z",
+              "WhenOpened": "2024-11-15T22:04:46.007Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AbastecimentoRepository.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Repositories\\AbastecimentoRepository.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Database\\Repositories\\AbastecimentoRepository.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Repositories\\AbastecimentoRepository.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Database\\Repositories\\AbastecimentoRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:29:54.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAbastecimentoRepository.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IAbastecimentoRepository.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IAbastecimentoRepository.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IAbastecimentoRepository.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Database\\Repositories\\Interfaces\\IAbastecimentoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:29:50.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AbastecimentoController.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\AbastecimentoController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowFQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:29:43.729Z"
             }
           ]
         }
