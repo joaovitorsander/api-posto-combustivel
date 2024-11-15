@@ -13,7 +13,8 @@ namespace ApiPostoCombustivel.Parser
                 Id = dto.Id,
                 TipoCombustivel = dto.TipoCombustivel,
                 Quantidade = dto.Quantidade,
-                Data = dto.Data
+                Data = dto.Data,
+                Valor = dto.Valor
             };
         }
 
@@ -24,7 +25,8 @@ namespace ApiPostoCombustivel.Parser
                 Id = model.Id,
                 TipoCombustivel = model.TipoCombustivel,
                 Quantidade = model.Quantidade,
-                Data = model.Data
+                Data = model.Data,
+                Valor = model.Valor
             };
         }
     }

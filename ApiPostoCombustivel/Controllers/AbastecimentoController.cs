@@ -15,12 +15,9 @@ namespace ApiPostoCombustivel.Controllers
     public class AbastecimentoController : ControllerBase
     {
         private readonly AbastecimentoService _service;
-        private readonly CombustivelService _combustivelService;
-
         public AbastecimentoController(AppDbContext context)
         {
             _service = new AbastecimentoService(context);
-            _combustivelService = new CombustivelService(context);
         }
 
         // GET: api/abastecimento
@@ -74,6 +71,10 @@ namespace ApiPostoCombustivel.Controllers
                 return BadRequest(ex.Message);
             }
             catch (EstoqueInsuficienteException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (PrecoNaoEncontradoException ex)
             {
                 return BadRequest(ex.Message);
             }
