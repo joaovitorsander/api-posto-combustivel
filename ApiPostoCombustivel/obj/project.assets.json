@@ -1731,11 +1731,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Programação\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\ApiPostoCombustivel.csproj",
+      "projectUniqueName": "C:\\Users\\João\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\ApiPostoCombustivel.csproj",
       "projectName": "ApiPostoCombustivel",
-      "projectPath": "D:\\Documentos\\Programação\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\ApiPostoCombustivel.csproj",
+      "projectPath": "C:\\Users\\João\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\ApiPostoCombustivel.csproj",
       "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Programação\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\obj\\",
+      "outputPath": "C:\\Users\\João\\source\\repos\\ApiPostoCombustivel\\ApiPostoCombustivel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1750,7 +1750,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "c:\\program files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1810,7 +1810,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

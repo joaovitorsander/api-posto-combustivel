@@ -6,25 +6,34 @@ using System.Linq;
 
 namespace ApiPostoCombustivel.Database.Repositories
 {
+    // Implementação do repositório de abastecimentos.
+    // Esta classe realiza as operações no banco de dados relacionadas aos abastecimentos.
     public class SupplyRepository : ISupplyRepository
     {
         private readonly AppDbContext _context;
 
+        // O contexto do banco de dados é injetado no construtor para que possamos acessar as tabelas.
         public SupplyRepository(AppDbContext context)
         {
             _context = context;
         }
 
+        // Retorna todos os registros de abastecimentos.
+        // Usado para listar todos os abastecimentos registrados.
         public IEnumerable<TbSupply> GetSupplies()
         {
             return _context.Supplies.ToList();
         }
 
+        // Busca um abastecimento pelo ID.
+        // Retorna null caso o abastecimento não seja encontrado.
         public TbSupply GetSupplyById(int id)
         {
             return _context.Supplies.FirstOrDefault(a => a.Id == id);
         }
 
+        // Retorna todos os abastecimentos de um tipo específico de combustível.
+        // Útil para filtrar por tipo de combustível.
         public IEnumerable<TbSupply> GetSuppliesByType(string fuelType)
         {
             return _context.Supplies
@@ -32,12 +41,16 @@ namespace ApiPostoCombustivel.Database.Repositories
                            .ToList();
         }
 
+        // Adiciona um novo registro de abastecimento ao banco de dados.
+        // Após a inclusão, as alterações são salvas.
         public void AddSupply(TbSupply supply)
         {
             _context.Supplies.Add(supply);
             _context.SaveChanges();
         }
 
+        // Atualiza um registro de abastecimento existente.
+        // Busca pelo ID e, se encontrado, altera os dados e salva as alterações.
         public void UpdateSupply(TbSupply supply)
         {
             var existingAbastecimento = _context.Supplies.FirstOrDefault(a => a.Id == supply.Id);
@@ -49,6 +62,8 @@ namespace ApiPostoCombustivel.Database.Repositories
             }
         }
 
+        // Remove um registro de abastecimento do banco pelo ID.
+        // Busca o registro e, se encontrado, o remove e salva as alterações.
         public void DeleteSupply(int id)
         {
             var supply = _context.Supplies.FirstOrDefault(a => a.Id == id);
@@ -59,6 +74,8 @@ namespace ApiPostoCombustivel.Database.Repositories
             }
         }
 
+        // Retorna todos os abastecimentos realizados em uma data específica.
+        // Filtra os registros pela data informada.
         public IEnumerable<TbSupply> GetSuppliesByDate(DateTime date)
         {
             return _context.Supplies
