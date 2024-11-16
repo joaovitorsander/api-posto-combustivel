@@ -1,20 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\services\\fuelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\services\\fuelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\controllers\\fuelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\controllers\\fuelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|d:\\documentos\\programa\u00E7\u00E3o\\trabalho final - juliano\\api-posto-combustivel\\apipostocombustivel\\validations\\fueltypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD1E27F8-4C24-49F9-A1FB-348D8EEBD3D9}|ApiPostoCombustivel\\ApiPostoCombustivel.csproj|solutionrelative:apipostocombustivel\\validations\\fueltypevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Jo\u00E3o\\source\\repos\\ApiPostoCombustivel\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,45 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FuelTypeValidator.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Validations\\FuelTypeValidator.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Validations\\FuelTypeValidator.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Validations\\FuelTypeValidator.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Validations\\FuelTypeValidator.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAMwBcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T23:18:41.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FuelService.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Services\\FuelService.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Services\\FuelService.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Services\\FuelService.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Services\\FuelService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAIAwwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T23:13:41.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FuelController.cs",
-              "DocumentMoniker": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\FuelController.cs",
-              "RelativeDocumentMoniker": "ApiPostoCombustivel\\Controllers\\FuelController.cs",
-              "ToolTip": "D:\\Documentos\\Programa\u00E7\u00E3o\\Trabalho final - Juliano\\api-posto-combustivel\\ApiPostoCombustivel\\Controllers\\FuelController.cs",
-              "RelativeToolTip": "ApiPostoCombustivel\\Controllers\\FuelController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAIAwwDQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T23:11:45.214Z",
-              "EditorCaption": ""
             }
           ]
         }
